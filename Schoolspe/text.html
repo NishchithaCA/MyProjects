@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+/*=== Import Raleway fonts ===*/
+
+
+
+
+
+.discount-label {
+ padding:8px; 
+ position:relative;
+  float:left;
+  margin-top:35px;
+   margin-left:60px;
+width:50px;
+-webkit-border-radius:0 4px 0 4px;
+-moz-border-radius:0 4px 0 4px;
+border-radius:0 4px 4px 0;
+
+}
+
+.discount-label:after { 
+
+    right: 100%; 
+    border: solid transparent; content: " "; 
+    height: 0; 
+    width: 0; 
+    position: absolute;
+    border-color: rgba(136, 183, 213, 0);
+     
+    border-width: 20px; 
+    top: 50%; 
+    margin-top: -20px;} 
+
+    .discount-label:before {
+  content: '';
+  z-index: 2;
+  position: absolute;
+  top: 42%;
+  right: 100%;
+  width: 7px;
+  height: 7px;
+  opacity: .95;
+  background: #ffffff;
+  border-radius: 7px;
+  -webkit-box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: inset .5px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+
+    .discount-label span {
+      color:#ffffff;
+  font-size:20px;
+text-align:center;
+  font-family:"Raleway",Helvetica;
+
+}
+
+
+.red{ 
+background-color:#E80707; 
+}
+
+.red:after{ 
+border-right-color: #E80707;
+  
+}
+
+
+
+
+
+	</style>
+</head>
+<body>
+
+
+        <div class="discount-label red"> <span>-10%</span> </div>
+        
+   
+        
+          
+      
+    <input type="date" data-date="" data-date-format="DD/MM/YYYY" value="2020-08-29">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+	<script>
+		$("input").on("change", function() {
+        this.setAttribute(
+            "data-date",
+            moment(this.value, "YYYY-MM-DD")
+            .format( this.getAttribute("data-date-format") )
+        )
+    }).trigger("change")
+	</script>
+</body>
+</html>
