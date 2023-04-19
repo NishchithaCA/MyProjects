@@ -1,0 +1,68 @@
+#myModallogin .modal-content{
+    border-radius:10px;
+    background: #f5f3f3fd;
+}
+#myModallogin .modal-header{
+    padding: 1rem 2rem;
+}
+#myModallogin .modal-header h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: black;
+}
+
+#myModallogin .modal-header button{
+    font-size: 2.5rem;
+}
+#myModallogin .modal-body {
+  
+    padding: 3rem 4rem;
+}
+#myModallogin .modal-body label{
+    font-size: 2.5rem;
+}
+#myModallogin .modal-body .form1 input{
+  border-radius: 10px;
+    background: white;
+    height: 6rem;
+   width: 100%;
+   margin-top:3rem;
+}
+.btn-otp{
+    margin-left: 9rem;
+    padding: 1rem 8rem;
+    color: white;
+    background: #026536 ;
+    font-size: 2rem;
+    border-radius: 10px;
+}
+
+.userInput{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.userInput input{
+    text-align: center;
+
+    width:4.5vw;
+    height:8vh;
+    background: white;
+ 
+}
+
+#myModallogin .modal-body  .form2 a{
+text-decoration: none;
+font-size: 1.8rem;
+color: black;
+font-weight: 700;
+margin-top: 2rem;
+margin-left: 16rem;
+
+}
+
+/* #Menu2{
+    display: none;
+} */

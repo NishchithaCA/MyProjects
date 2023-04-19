@@ -1,0 +1,191 @@
+.contact_section{
+        /*min-height: 100vh;*/
+        /*width:100%;*/
+        /*background-image: url(../Images/home/home-hero.jpg);*/
+        /*background-position: center;*/
+        /*background-size: cover;*/
+        /* position: relative; */
+  
+}
+.contact_section{
+    width: 100%;
+    /*height: 57vh;*/
+    /*background: url(../Images/home/home-hero.jpg) no-repeat center;*/
+    /*background-size: cover;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.contact_section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.contact_section-inner{
+    width: 90%;
+    color: #FFFFFF;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    font-family: var(--ff-head);
+}
+.contact_section-inner h1{
+font-size: 4.5rem;
+    line-height: 54px;
+    font-weight:900;
+}
+.contact_section-inner h3{
+    font-size:3rem;
+    font-weight:500;
+    line-height: 63px;
+}
+.contact-us-content{
+    padding:4% 10%;
+}
+.contact-us-content h2{
+    font-weight:700;
+font-size: 3.6rem;
+}
+.contact-us-content-inner  img{
+    background-color: #026536;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 2%;
+}
+.contact-us-content-inner{
+    padding:2.5rem 0%;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contact-us-content-text{
+    margin-left: 5%;
+}
+.contact-us-content-text h3{
+    color: #848282;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+.contact-us-content-text h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 25px;
+    color: #001516;
+
+}
+.drop-message{
+    padding-left:5%;
+    margin-left: 8%;
+}
+.drop-message .form-group {
+    margin-top: 5%;
+}
+.drop-message .form-group input{
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.6rem !important;
+}
+.drop-message .form-group textarea{
+    font-size: 1.6rem !important;
+}
+.drop-message .form-group input::placeholder{
+    color:#A6A6A6 ;
+    padding:40px 30px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+  
+}
+.drop-message .form-group textarea{
+   
+    border-radius: 10px;
+}
+.drop-message .form-group textarea::placeholder{
+    color:#A6A6A6 ;
+    padding-left: 30px;
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+  
+}
+.send-message-btn{
+    margin-top: 5%;
+    color:#FFFFFF;
+    font-size:1.8rem;
+    font-weight: 500;
+    background-color: #026536;
+    border-radius: 5px;
+    width: 190px;
+    height: 40px;
+    text-align: center;
+}
+
+.above-footer .image{
+    width: 100%; 
+    margin-top: 3%;
+    height: 266px;
+}
+
+
+
+/* -----------------------------------------meadiaquery starts here------------------------------------------------------ */
+
+@media(max-width:700px){
+    .contact_section-inner{
+     text-align: center;
+    } 
+    .contact_section-inner h1{
+        font-size: 3.5rem;
+    } 
+    .contact_section-inner h3{
+        font-size: 2rem;
+        line-height: 40px;
+    }
+    .contact-us-content h2{
+        text-align: center;
+        font-size: 2.6rem;
+        margin-top: 5%;
+    }
+    .above-footer img {
+        margin-top: -24%;
+        width: 100%;
+        /* height: 100%; */
+        object-fit: contain;
+    }
+    .footer{
+    margin-top: -24%;
+    }
+    .drop-message .phone{
+        margin-top: 5%;
+
+    }
+    .send-message-btn {
+        margin-top: 8%;
+      
+        font-size: 1.4rem;
+        font-weight: 500;
+        background-color: var(--color-yellow);
+       width: 100px;
+height: 40px
+    
+    }
+}
+
+@media(max-width:1025px) and (min-width:800px){
+    .contact_section-inner h1 {
+        font-size: 6.5rem;
+        line-height: 84px
+    }
+    .contact_section-inner h3{
+     
+        font-size:4rem;
+        line-height: 60px;
+    }
+
+}

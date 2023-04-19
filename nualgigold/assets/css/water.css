@@ -1,0 +1,55 @@
+.hero_head-content .buynow_button{
+    background-color: #2677a7;
+}
+.water_image{
+     /*border: 1px solid black; */
+    grid-column: 59 / 100;
+    grid-row: 1 / 25;
+    margin: 1% 1% 1% 1%;
+}
+
+.hero .background_image{
+    background-image: linear-gradient(0deg, #00326c, #0289cd);
+}
+
+.hero .buynow_button{
+    background-color: #0c8bce;
+}
+
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 850px) { 
+    
+    .hero_head-content .heading{
+        font-size: 2rem;
+    }
+    .hero_head-content{
+        grid-column: 3 / 79;
+    }
+    .water_image{
+        grid-column: 34 / 100;
+         grid-row: 3 / 24;
+        margin: -3% 1% 1% 1%;
+    }
+    .main_bottle{
+        grid-column: 1 / 35;
+        grid-row: 21 / 48;
+    }
+    .hero_main-contents {
+        grid-column: 36 / 100;
+        grid-row: 23 / 50;
+    }
+     .hero_main-contents .head{
+        margin-top: 1.5rem;
+         font-size: 1.8rem;
+    }
+    .hero_main-contents .para{
+        margin-top: 0;
+        font-size: 1.2rem;
+    }
+    .other_products-wrapper .heading{
+        font-size: 3rem;
+    }
+}
+
+

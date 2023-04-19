@@ -1,0 +1,257 @@
+.mobile-mode{
+    display: none;
+}
+.rating-review-content{
+    padding: 5rem 10rem;
+}
+.rating-review-content{
+    padding: 5rem 10rem;
+}
+
+
+.rating-review-content h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+	
+}
+.rating-review-content-inner{
+    margin-top: 4rem;
+}
+.rating-review-content-inner-left{
+    border: 1px solid #f0ecec;
+	padding: 2rem 3rem;
+}
+
+.rating-review-content-inner-left{
+	
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+
+}
+.checked {
+    color: orange;
+  }
+  .fa-star{
+      font-size: 2.5rem;
+      margin-left: 0.8rem;
+  }
+  .spray-name span{
+      margin-top:2rem;
+  }
+  .comments{
+      margin-top: 2rem;
+      background:#f1f1f1 ;
+      color: #999999;
+      padding: 1rem 2rem;
+      width: 100%;
+      border-radius: 5px;
+      font-size: 1rem;
+      height:8rem ;
+
+  }
+  .comments h3{
+      font-size: 1.4rem;
+  }
+
+  .right-icons{
+      display: flex;
+    font-size: 2rem;
+    float: right;
+    color: #D1C9C9;
+    float: right;
+    justify-content: space-around;
+  }
+  .right-icons a i{
+    font-size: 2rem;
+    
+    color: #D1C9C9;  
+  }
+/* css for tabs */
+.tab-menu-profile ul{
+	margin: 0;
+	padding: 0;
+}
+.tab-menu-profile ul li{
+	border: 1px solid #f0ecec;
+   
+	list-style-type: none;
+	/* display: inline-block; */
+}
+.tab-menu-profile ul li a{
+	text-decoration: none;
+	color: black;
+    padding: 1.6rem 4rem;
+	font-size: 1.6rem;
+
+
+
+}
+.tab-menu-profile ul li a.active-a-profile{
+	background-color:  #026536;
+	color: #ffffff;
+}
+.tab-profile{
+	display: none;
+}
+.tab-profile h3{
+	font-size: 2.2rem;
+	font-weight: 500;
+}
+.tab-a-pro i{
+	float:right;
+	font-size: 3rem;
+	font-weight: 300;
+}
+.tab-active-profile{
+	display: block;
+}
+
+	  
+
+.deactivate-button{
+	margin-top: 3rem;
+}
+.deactivate-account{
+	color: red;
+	font-size: 1.6rem;
+	font-weight: 700;
+	border: 1px solid #f0ecec;
+	border-radius: 15px;
+
+	padding: 2.5rem 8rem;
+
+}
+.deactivate-account:hover{
+	background-color:#fdfafa ;
+	border: 1px solid #f0ecec;
+}
+
+.rating-review-content-inner-left{
+    border: 1px solid #f0ecec;
+	padding: 2rem 3rem;
+}
+
+
+                    
+                   
+.rating-review-content-inner-left .spray-name{
+    padding: 3rem 0rem;
+}
+ .rating-review-content-inner-left .spray-name h4{
+font-weight: 500;
+    font-size: 2rem;
+    color: #999999;
+}
+ .rating-review-content-inner-left .spray-name h5{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+    font-weight: 400;
+    color: #999999;
+    background:#ebe9e9 ;
+    width: 80px;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.rating-review-content-inner-left .bottle-img img{
+    width: 75%;
+}
+
+/* css for starts */
+.rating-box {
+    display: inline-block;
+}
+.rating-container {
+      direction: rtl !important;
+}
+.rating-box label {
+          width: 24px;
+          height: 24px;
+
+        display: inline-block;
+        margin: 0px 10px;
+        color: #d4d4d4;
+        cursor: pointer;
+        font-size: 50px;
+        transition: color 0.2s;
+}
+
+.rating-box  input {
+        display: none;
+      }
+      .rating-box  label:hover,
+      .rating-box  label:hover ~ label,
+      .rating-box input:checked ~ label {
+        color: gold;
+      }
+      #myModaledit .modal-body{
+          text-align:center;
+      }
+      .textarea-section{
+          margin-top: 2rem;
+          display: flex;
+          justify-content: center;
+      }
+      .textarea-section textarea{
+          border:1px solid #D1C9C9;
+      }
+      .submit-btn{
+          display: flex;
+          justify-content: center;
+          margin-top: 2rem;
+      }
+      .submit-btn button{
+          border-radius: 5px;
+          color: #999999;
+          background: #ebe9e9;
+          font-size: 1.6rem;
+          padding: 1rem 3rem;
+      }
+      .rate-section{
+          border-bottom: 1px solid #ebe9e9;
+          margin-top: 2rem;
+      }
+      .rate-review{
+          display: flex;
+      }
+      .review-our-serviews-inner{
+      margin-top:2rem;}
+
+      .review-our-serviews-inner a{
+          margin-left: 1rem;
+          text-decoration: none;
+          font-size: 1.8rem;
+          font-weight: 400;
+          color:#026536;
+          border-left: 1px solid #ebe9e9;
+      }
+      .review-our-serviews #hide textarea{
+          margin-top: 2rem;
+          border: 1px solid #ebe9e9;
+
+      }
+@media (max-width: 850px) {
+	.desktop-mode{
+		display: none;
+	}
+	.mobile-mode{
+		display: block;
+        padding: 1rem 2rem;
+	}
+    .rating-review-content-inner-left .bottle-img img {
+        width:50%;
+    }
+    .right-icons a i {
+    margin-right: 2rem;}
+    .rating-review-content-inner-right{
+     z-index: -999999 !important;
+    }
+    
+
+}
+
+@media (max-width: 1024px) and (min-width:851px){
+
+}

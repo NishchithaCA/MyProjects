@@ -1,0 +1,133 @@
+/*------------------ css for top section------------------*/
+.certification-content{
+    min-height: 100vh;
+    width:100%;
+    background-image: url(../images/gallery/certification/certificat-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    /* position: relative; */
+    color: #FFFF;
+}
+.certification-content-inner{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+}
+.certification-content-inner h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    line-height: 80px;
+}
+.certification-content-inner p{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 40px;
+}
+.certification-content-inner a{
+    margin-top: 3rem;
+    width:214px;
+    height: 50px;
+    padding-top: 1rem;
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    background: var(--color-yellow);
+    text-align: center;
+}
+
+.certification-tab-content {
+   
+    padding: 3rem 5rem;
+    text-align: center;
+}
+
+.certification-tab-content h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+
+}
+
+
+/* Override bootstrap column paddings */
+.certification-tab-content .tz-gallery .pics_in_a_row{
+  display: flex;
+  margin-bottom:3rem;
+}
+
+.certification-tab-content .tz-gallery .pics_in_a_row .img4 img{
+  margin-right:30px;
+   width:350px;
+   height:350px;
+
+}
+.certification-tab-content .tz-gallery .pics_in_a_row .img5 img{
+  
+  width: 350px;
+  height: 350px;
+
+}
+
+.certification-tab-content .tz-gallery img{
+object-fit: cover;
+}
+.certification-tab-content .tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+    height: auto;
+    object-fit: fill;
+}
+
+.certification-tab-content .baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+
+  
+ 
+  /* Other styling elements, that are not necessary for the example */
+  
+  
+  
+.lightbox{
+    display: inline-block;
+    overflow: hidden; 
+}
+
+
+.img-fluid{
+    transition: 0.3s;
+    position: relative;
+    /*border: 2px solid black;*/
+    z-index: -999;
+}
+.img_container{
+    border:1px solid grey;
+}
+
+
+.img_container:hover{
+    /* border: 5px solid green; */
+    background-color: rgb(0,0,0,0.4) !important;
+    transition: 0.3s ease-in;
+}
+
+
+
+.img_container:hover .img-fluid {
+    transform: scale(2.1);
+     /* background-color: rgb(0,0,0,0.6) !important; */
+  
+  }
+
+
+ 
+
+  
+

@@ -1,0 +1,148 @@
+.footer{
+    background: #071C1F;
+    color:#FFFF;
+    padding:3% 3% 1% 6%;
+}
+.footer-top{
+    padding-bottom: 2rem;
+  width: 100%;
+    border-bottom:2px solid grey;
+}
+.footer .col1 img{
+    width: 200px;
+    height: auto;
+
+}
+.footer .col1 p{
+    margin-top: 3%;
+font-size: 1.6rem;
+font-weight: 400;
+line-height: 24px;
+}
+.footer .col2 h4{
+margin-top: 25%;
+    font-size: 2rem;
+font-weight: 800;
+line-height: 29px;
+}
+.footer .col2 a{
+    color:#FFFF;
+    text-decoration: none;
+    margin-top: 10%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 29px;
+    }
+    .footer .links{
+        margin-top: 10%;
+    }
+    .footer  .col4{
+        margin-top: 4%;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    
+* {
+    box-sizing: border-box;
+  }
+  
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #FFFF;
+    border-radius: 0%;
+  }
+  
+  form.example button {
+    border-radius: 0%;
+    float: left;
+    padding: 9.2px;
+    background: #026536;
+    color: white;
+    font-size: 17px;
+   border-left: none;
+    cursor: pointer;
+    border: none;
+}
+
+ .footer-bottom {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid white; */
+    position: relative;
+
+}
+.right-content{
+   font-size: 1.4rem;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(100%, -50%);
+    display: flex;
+    text-align: end;
+    /* border: 1px solid white; */
+    
+} 
+.right-content .for-space{
+    margin-right: 50px;
+}
+
+.footer .social_links{
+    /* border: 1px solid black; */
+    margin-top: 4rem;
+
+    width: 100px;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .social_links i{
+    color: var(--color-white);
+    font-size:2.6rem;
+    margin-left: 2rem;
+
+}
+@media (max-width:700px) {
+
+.footer .col1{
+    text-align: center;
+}
+.footer .col1 img {
+    width: 175px;
+    height: auto;
+
+}
+.footer .col1 p {
+font-size: 1rem;
+}
+.footer .col2{
+    text-align: center;
+    }
+    .footer .col2 h4 {
+        margin-top: 15%;
+     }
+    .footer .col2 a {
+        margin-top:3%;
+}
+.footer .col4{
+    text-align: center;
+    margin-top: 10%;
+} 
+form.example{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.footer .social_links {
+    margin-left: 10rem;
+
+}
+}
