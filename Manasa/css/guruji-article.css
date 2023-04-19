@@ -1,0 +1,121 @@
+.news .dropdown select {
+    width:100%;
+    margin:0;
+    background:none;
+    border: 1px solid transparent;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size:1.25em;
+    color: #444;
+    line-height:1.3;
+    padding: 12px 24px;
+  }
+ 
+.news {
+padding: 0rem;
+box-shadow: 0px 5px 7px 4px #c1c1c1;
+border-radius: 1rem;
+float: right;
+width: 18%;
+}
+
+
+.news .dropdown::after {
+font: var(--fa-font-solid);
+content: "\f0d7";
+position: absolute;
+font-size: 30px;
+top: 40%;
+right: 0em;
+color: #f9d857;
+margin-top: -12px;
+margin-right: 1rem;
+
+}
+.top-down{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-section{
+    text-align: center;
+}
+.pagination>li>a, .pagination>li>span {
+    
+    background-color: #fff;
+    border:none !important;
+    box-shadow: 0px 1px 2px 1px #c1c1c1;
+    border-radius: 2px;
+    color: #000;
+    font-weight: 700;
+}
+.article-content{
+    padding: 2rem 0rem 0rem 5rem ;
+}
+.article-content h3{
+color:#119FFE ;
+font-size: 2.6rem;
+font-weight: 700;
+
+}
+.article-content h5{
+    font-size: 1.8rem ;
+    color: #000;
+    font-weight: 600;
+
+}
+.article-content p{
+    font-size: 1.6rem ;
+    color: #000;
+    font-weight: 400;
+    margin: 1.5rem 0rem 2rem 0rem;
+
+}
+.article-content hr{
+
+        
+        border-top: 2px solid #c1c1c1;
+        margin: 4rem 2rem 2rem 2rem !important;
+       
+      
+ 
+}
+@media (max-width:700px) {
+    .row{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+        padding-left: 6% !important;
+        padding-right: 6% !important;
+    }
+    .top-down{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .news {
+        margin-top: 1rem;
+        width: auto;
+    }
+    .article-content {
+        padding: 2rem 0rem 0rem 3rem;
+    }
+    .article-content h3 {
+      
+        font-size: 2rem;}
+        .article-content h5 {
+            font-size: 1.6rem;}
+            .article-content p {
+                font-size: 1.3rem;}
+                .page-row{
+padding-left: 0% !important;
+padding-right: 0% !important;
+                }
+                .pagination>li>a, .pagination>li>span {
+                   font-size: 1.2rem;
+                    padding: 3px 8px;}
+}

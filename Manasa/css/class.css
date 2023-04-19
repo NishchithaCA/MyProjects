@@ -1,0 +1,276 @@
+ .form-register{
+    box-shadow:0 0 5px rgb(181, 181, 181);
+    background: #F8F8F8;
+    padding: 2rem 5rem;
+    border-radius:20px;
+   
+ }
+.form-register .row{
+    display: flex;
+    justify-content: center;
+    margin-top:1rem;
+}
+.form-register input, .form-register select, .form-register textarea{
+    box-shadow:0 0 4px rgb(209, 208, 208);
+    padding: 23px 10px !important;
+    background: white !important;
+    border: none !important;
+    color: #000;
+font-weight: 600;
+font-size: 16px;
+
+}
+.form-register label{
+    font-weight: 600;
+    color:#000
+}
+.form-register select{
+    width: 100%;
+    padding: 10px 10px !important;
+}
+.form-register input::placeholder, .form-register select::placeholder, .form-register textarea::placeholder{
+color: #000;
+font-weight: 600;
+font-size: 16px;
+}
+.submit-class{
+   color: white;
+   background: #119FFE;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 1rem 3rem;
+   margin-top: 2rem;
+}
+.check-form{
+    margin-top: 0rem !important;
+    display: flex;
+    justify-content: space-around !important;
+}
+.class p{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+  padding: 1rem;
+}
+
+.table thead{
+background-color: #5DB1E9;
+color: #fff;
+}
+
+.table>thead:first-child>tr:first-child>th{
+    border-right: 3px solid #fff;
+    border-bottom: 10px solid #fff;
+    font-weight: 500;
+    font-size: 1.8rem;
+    white-space: pre-line;
+word-break: break-word;
+
+}
+
+
+.table>tbody>tr>td{
+    padding: 10px;
+    border-top: 10px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #F6F6F6;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #D5E5F5;
+}
+
+
+
+
+.enquiry{
+    background: url(../images/class/enquiry-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/**********************Enquiry form style*******************************/
+.eform{
+    background-color: #fff;
+    padding: 20px;
+}
+ 
+form {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  margin:3rem 10rem 10rem 1rem;
+}
+form div, form label, form input, form textarea {
+  width: 100%;
+}
+
+.field:nth-of-type(2) {
+  margin: 16px 0;
+}
+
+ 
+ 
+
+input, textarea {
+      border-bottom: 2px solid #B9B6B6;
+      margin-bottom: 2rem;
+       
+     
+      font-size: 18px;
+}
+input:focus, textarea:focus {
+  background: white;
+  box-shadow: none;
+}
+
+textarea {
+  resize: none;
+}
+textarea::-webkit-scrollbar {
+  width: 0;
+}
+
+.eform button {
+  background: #119FFE;
+   
+  padding: 8px 16px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 8px 6px -6px #555;
+}
+
+ 
+
+@media (max-width: 425px) {
+  form {
+    width: 100%;
+  }
+}
+
+
+
+ 
+
+.fee{
+    background-color: #fff;
+    box-shadow: 0px 5px 7px 4px #c1c1c1;
+    padding: 0rem 0rem 1rem;
+     border-radius: 2rem  ;
+}
+
+
+.feeimg{
+    background: #e3f9d5 ;
+    border-radius: 2rem 2rem 0rem 0rem;
+}
+.fee h4{
+    text-align: center;
+    font-weight:700 ;
+    margin: 3rem 0rem;
+}
+
+
+
+
+@media (max-width:500px){
+    
+a img{
+    width: 40px;
+}
+.class p{
+    margin: 0rem 0rem;
+    font-size: 16px;
+}
+.table>thead:first-child>tr:first-child>th {
+    font-size: 1.2rem;
+}
+table>tbody>tr>td {
+    font-size: 1.2rem;
+}
+.form-register .row{
+    display: block;
+   margin-left: 0% !important;
+   margin-right: 0% !important;
+   padding-left: 0% !important;
+   padding-right: 0% !important;
+}
+.form-register {
+padding: 0% ;
+}
+.form-register h2{
+    text-align: center;
+    font-size: 20px;
+}
+.form-register label, .form-register input, .form-register select, .form-register textarea{
+    font-size: 12px;
+}
+.form-register input::placeholder, .form-register select::placeholder, .form-register textarea::placeholder{
+    font-size: 12px;
+}
+.button-row{
+    display: flex !important;
+    justify-content: center !important;
+}
+.submit-class {
+    margin-bottom: 2rem;
+}
+.feeimg img{
+    width: 60px;
+}
+.fee h4 {
+    font-size: 16px;
+    margin: 1rem 0rem;
+}
+}
+
+@media (min-width:501px)and ( max-width:1024px){
+     
+    .class p{
+        margin: 2rem 0rem;
+        font-size: 16px;
+    }
+
+    .table img {
+        width: 100%;
+    }
+
+    
+    .table img{
+        width: 20%;
+    }
+    
+    
+}
+
+@media(min-width:1025px) and (max-width:1280px){
+    
+
+   
+    .table img{
+        width: 20%;
+    }
+}
+
+@media (min-width:1281px){
+    
+
+    .table img{
+        width: 15%;
+    }
+}
+
+
+
+ 
+@media (min-width: 1200px){
+#fees .col-lg-1 {
+    width: 6%;
+}
+}

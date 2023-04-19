@@ -1,0 +1,315 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-image: url('../images/login.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+.container {
+ 
+  height: 100vh;
+  display: grid;
+ 
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  width: 100%;
+  max-width: 400px;
+  padding: 2em;
+ 
+  
+}
+
+.card-title {
+  font-size: 30px;
+ color: #05056D;
+ text-align: center;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.card-subtitle {
+  color: #05056D;
+}
+
+.card-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 1.5rem 0 1rem 0;
+}
+
+.card-input-container {
+  position: relative;
+  margin: 0.5rem 0 2rem;
+  width: 100%;
+}
+.card img{
+    width: 120px;
+    margin-bottom: 2rem;
+}
+
+
+.card-input-container input::placeholder {
+  color: #000;
+  font-size: 1.6rem;
+}
+
+.card-input-container input,
+.card-button {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 1px;
+  font-family: "poppins", Arial, Helvetica, sans-serif;
+}
+
+.card-input-container input {
+  padding: 1em 2em 1em 4em;
+  font-size: 14px;
+  color: #b6b6b6;
+  background: #fff;
+  box-shadow: 0px 10px 20px rgb(0, 0, 0, 0.1);
+  margin-bottom: 2.5rem;
+   
+}
+
+.card-input-container input:focus {
+  box-shadow: inset -5px -5px 10px rgb(255, 255, 255),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-button {
+  background: #565656;
+  padding: 1em;
+  color: #f4f4f4;
+  cursor: pointer;
+  box-shadow: -10px -10px 20px rgb(255, 255, 255),
+    10px 10px 20px rgba(0, 0, 0, 0.4);
+  margin-bottom: 1.5rem;
+}
+
+.card-button:focus,
+.card-button:hover {
+  box-shadow: inset -5px -5px 10px rgba(255, 255, 255, 0.4),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.card-forgot-password {
+  text-align: center;
+  font-size: 12px;
+  color: #b6b6b6;
+}
+
+.card-forgot-password a {
+  color: #565656;
+}
+.card-forgot-password a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card-input-container::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  left: 1.3rem;
+  top: 0.8rem;
+  font-size: 20px;
+  color: #000;
+}
+
+.card-input-container.username::after {
+  content: "\f0e0";
+}
+
+.card-input-container.password::after {
+  content: "\f023"
+}
+.forgot-sec {
+    display: flex;
+    justify-content: space-between;
+}
+.forgot-sec .left{
+    display: flex;
+}
+.forgot-sec label{
+    font-size: 14px ;
+    font-weight: 500;
+    color: #000;
+}
+.left input{
+    width: auto;
+    margin-right: 0.5rem;
+}
+.left input[type="checkbox"] {
+    width: 15px;
+    height: 20px;
+    /* margin: auto; */
+    display: table-row;
+    border: 5px solid red !important;
+
+    margin-left: 4px;
+    margin-top: 1px;
+    border-radius: 0% !important;
+}
+.right a{
+    text-decoration: none;
+    font-weight: 500;
+}
+.log-btn-sec{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.log-btn{
+    border-radius: 0%;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    background: #fff;
+    padding: 6px 28px;
+}
+.log-reset{
+    color: #fff;
+    background: #BC0606;
+}
+.log-btn:hover{
+    color: #fff;
+    background: #24b4eb;
+}
+.log-reset:hover{
+    color: #000;
+    background: #fff;
+}
+.footer-login{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.footer-login p{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+@media (max-width:700px) {
+    .footer-login p {
+        font-size: 1.3rem;}
+        .card-title {
+            font-size: 25px;}
+            .card img{
+                width: 90px;
+               
+            }
+            
+    
+}
+
+
+
+/* forgot */
+
+.forgot-title{
+  font-size: 25px;
+  margin-bottom: 1rem;
+}
+.btn-continue{
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  padding: 1rem 1rem;
+}
+.login-link{
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 16px;
+
+}
+.login-link span{
+  color: #05056D;
+  font-weight: 500;
+}
+.forgot-cad{
+  padding-top: 16rem;
+}
+.forgot-footer{
+  margin-top:10rem;
+}
+.reset-cad{
+  padding-top: 0rem;
+  margin-top: 10rem;
+  padding-bottom: 0%;
+}
+.reset-cad input{
+  margin-bottom: 1rem;
+}
+.reset-footer{
+  margin-top: 13rem;
+
+}
+.success-cad{
+  margin-top: 0rem;
+}
+.btn-succes{
+  width: 70%;
+  text-align: center;
+}
+.success-cad p{
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+.success-cad{
+ max-width: 450px !important;
+}
+.success-cad h5{
+  font-size: 28px;
+}
+.log-btn-sec a{
+  text-decoration: none !important;
+
+}
+.modal-content{
+  background-image: url('../images/login.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 3rem 4rem;
+}
+button.close {
+color: #000 !important;
+font-size: 30px !important;
+margin-left: auto;
+}
+.reset-cad, .success-cad{
+  background: none !important;
+  border: none !important;
+}

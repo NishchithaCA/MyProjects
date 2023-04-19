@@ -1,0 +1,221 @@
+h3 {
+    font-weight: 700;
+}
+
+.bill {
+
+    padding: 3rem 3.5rem;
+}
+
+.bill1 {
+   
+    padding: 2rem;
+ 
+}
+.bill-payment{
+    margin-top: 5rem;
+    padding: 2rem 0rem !important;
+}
+.bill-payment .col-md-7{
+    padding-left: 0% !important;
+   
+}
+.bill-payment .row{
+    margin-bottom: 1.5rem;
+}
+.bill-payment p{
+    box-shadow: 0 0 6px 1px rgba(0, 0, 0, 0.4);
+    border: none !important;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+}
+#msform {
+    margin: 1rem 4rem 0rem 0rem;
+}
+#msform .row{
+ margin-left: 0% !important; 
+ margin-right: 0% !important;  
+}
+#msform .row .col-md-6, #msform .row .col-md-12, #msform .row .col-md-4{
+    padding-left: 0% !important;
+
+}
+#msform input::placeholder{
+    color: grey !important;
+    font-size: 16px;
+}
+
+#msform input,
+#msform textarea,
+#msform select {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-bottom: 2.5rem;
+    /* width: 100%; */
+    font-family: montserrat;
+    color: #000;
+    font-size: 16px;
+    background:  white !important;
+}
+
+#msform .action-button {
+    width: 100px;
+    background: #27AE60;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+}
+
+
+#msform .action-button:hover,
+#msform .action-button:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
+}
+
+
+#msform label {
+    font-size: 13px;
+    font-weight: 500;
+    color: grey;
+    font-size: 16px;
+}
+
+
+hr {
+    margin-top: 0px;
+    margin: 1rem 0rem;
+    border: 0;
+    border-top: 2px solid #c1c1c1;
+}
+
+.part1 {
+
+    width: 100%;
+}
+.part1 p{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.view {
+    color: #fff;
+    background: #0d9fff;
+    padding: 1rem 3rem;
+    font-size: 15px;
+    border-radius: 0rem;
+}
+
+
+.container{
+padding-top: 0% !important;
+margin-top: 0% !important;
+}
+.page-link-cart{
+    margin-top: 3rem;
+}
+.page-link-cart a {
+    font-size: 16px;
+}
+.home-direction-exp span{
+    color: #000 !important;
+}
+.page-link-cart a.actve-a {
+    color: #0d9fff !important;
+    background: white !important;
+}
+.body-cart .col-lg-4, .body-cart .col-lg-8{
+padding-left: 0% !important;
+padding-right: 0% !important;
+}
+.body-cart .right-cart{
+    background: #EBEBEB;
+    height: 135vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+.btn-sub{
+background-color: #119FFE;
+color: white;
+font-size: 16px;
+font-weight: 500;
+border-radius: 0% !important;
+padding: 1rem 2rem;
+margin-right: 1rem;
+}
+.bill1 img{
+    width: 100% !important;
+
+}
+.btn-cart-view{
+    background-color: #fff;
+color: #119FFE;
+font-size: 17px;}
+@media (max-width:500px) {
+    .bill1 {
+        /* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+        padding: 2rem; */
+        height: auto;
+        text-align: center;
+    }
+    .bill-payment .col-md-5,  .bill-payment .col-md-7{
+        padding-left: 0% !important;
+        padding-right: 0%;
+       
+    }
+    .bill-payment .row{
+        margin-bottom: 2.5rem;
+    }
+    .bill1 img{
+        width: 70% !important;
+    }
+    .body-cart .right-cart {
+        background: #EBEBEB;
+      height: 100% !important;
+}
+.row {
+    margin-right: 0rem !important;
+    margin-left: 0rem !important;
+    padding-right:0rem !important;
+    padding-left: 0rem !important;
+}
+.bill {
+    padding: 1rem 0rem;
+}
+.bill1 {
+    padding:0rem 2rem;
+}
+.button-bottom{
+    display: flex;
+    justify-content: center;
+}
+.btn-cart-view{
+    background-color: #fff;
+color: #119FFE;;
+font-size: 16px;
+font-weight: 500;
+border-radius: 0% !important;
+padding: 1rem 2rem;
+margin-right: 1rem;
+}
+h3 {
+    font-size: 20px;
+}
+}
+/* @media (max-width:1024px)   {
+    .bill1{
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.4);
+        padding: 2rem;
+        height: auto;
+    }
+ }
+  */

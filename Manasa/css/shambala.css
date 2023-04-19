@@ -1,0 +1,119 @@
+
+
+.para  p{
+    font-size: 18px !important;
+    padding-left: 2.5rem;
+}
+ p,li{
+    font-size: 23px;
+}
+
+
+.hero-great-text-sham ul {
+    list-style-type: none
+  }
+  
+  .hero-great-text-sham p {
+    display: grid;
+    grid-template-columns: 20px auto;
+    justify-content: start;
+    align-items:flex-start;
+    font-size: 20px;
+  }
+  
+  .hero-great-text-sham .fa-star {
+    margin-top: 0.6rem;
+       font-size:1.7rem;
+       color: #FFD500;
+       
+     
+  }
+  .hero-great-text-sham  span {
+    font-size: 1.8rem;
+    color: black;
+    vertical-align: middle;
+    font-weight: 400;
+margin-left: 1.5rem;}
+.list p{
+    color: #000;
+    padding-left: 1rem;
+
+}
+.bold-prince{
+    padding-left: 2.5rem;
+}
+
+.list{
+    padding-left: 2.5rem;
+}
+
+.videos p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.shambtn{
+    background: #FEAF11;
+    float: right;
+    padding: 1rem 2rem;
+    box-shadow: 0px 5px 7px 4px #c1c1c1;
+
+}
+.books-creat-sham{
+    text-align: center;
+}
+.books-creat-sham img{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.shambtn a{
+    color: #000;
+font-size: 20px;
+}
+.book-sham{
+    padding-left: 1.5rem;
+    font-size: 18px;
+}
+@media (max-width:500px){
+    p,li{
+        font-size:14px;
+    }
+    
+     h2 {
+        font-size: 23px;
+    }
+    .row {
+     
+        padding-right:0% !important;
+        padding-left: 0% !important;
+    }
+    .para p {
+        font-size: 14px !important;}
+        .hero-great-text-sham p {
+            font-size: 14px !important;
+        }
+        .list {
+            padding-left: 1rem;
+        }
+        .hero-great-text-sham p span{
+            margin-left: 0.8rem;
+            font-size: 14px;
+        }
+        .hero-great-text-sham .fa-star {
+           
+            font-size: 1.4rem;}
+            h4 {
+                font-size: 14px;
+            }
+            .videos p {
+                font-size: 14px;}
+                .book-sham {
+                    font-size: 14px;
+                }
+                .books-creat-sham{
+                    padding: 5% 10%;
+                }
+                iframe{
+                    height: 300px  !important;
+                }
+}

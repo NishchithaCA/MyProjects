@@ -1,0 +1,316 @@
+.main{
+    padding: 0rem 9rem;
+}
+
+p {
+    font-size: 20px;
+
+}
+
+.maharshi {
+    background-color: #DAF8C7;
+}
+
+
+
+.Guruji {
+    background-color: #E7F3FC;
+
+}
+
+
+
+.kundali img {
+    height: 400px;
+    width: 330px;
+    z-index: 9;
+    position: relative;
+}
+
+.kundali1 img {
+    width: 100%;
+}
+
+
+.kundali1 .col-lg-7,
+.col-lg-5,
+.col-md-7,
+.col-md-5 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.tower {
+    background-color: #E7F3FC;
+    padding:2rem 8rem;
+    min-height: 300px;
+   
+    margin-left: 3rem;
+}
+
+.twrbtn {
+    background-color: #24B4EB;
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.kundali .col-lg-4,
+.col-lg-8,
+.col-md-4,
+.col-md-8 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.kundali{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}  
+   
+
+
+.cosmic {
+    padding:2rem 10rem;
+    background-color: #E7F3FC;
+    min-height: 300px;
+   
+}
+
+.hut {
+    padding: 5rem 10rem 5rem 2rem;
+    background-color: #DAF8C7;
+    min-height: 300px;
+    margin-top: 4rem;
+
+}
+
+.Antar {
+    padding: 5rem 10rem 5rem 2rem;
+    background-color: #E7F3FC;
+    min-height: 300px;
+    margin-top: 4rem;
+}
+
+.taponagara {
+    color: #041F6A;
+    font-weight: 700;
+    border: 1px solid #707070;
+    padding: 1rem;
+    font-size: 45px;
+    margin: 6rem 0rem;
+}
+.hero-creat-text-place p {
+    display: grid;
+    grid-template-columns: 20px auto;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.hero-creat-text-place .fa-star{
+
+    font-size: 1.5rem;
+    color: #FFD500;
+    margin-top: 0.6rem;
+
+}
+
+.hero-creat-text-place p span {
+    font-size: 1.8rem;
+    color: black;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    line-height: 1.6;
+
+}
+.tabs-content .fa-star{
+  font-size: 1.7rem !important;
+    color: #FFD500 !important; 
+}
+.taponagara-video video {
+    height: 550px !important;
+   
+}
+@media (max-width:700px) {
+    .hero-creat-text-place .fa-star {
+        font-size: 1.2rem;}
+        .hero-creat-text-place p span {
+            
+            margin-left: 0.6rem;}
+    .kundali img {
+        height: auto;
+        width: 180px;
+        z-index: 0;
+    }
+    .taponagara-video video {
+        height: 100% !important;
+       
+    }
+    .cosmic p{
+        text-align: center;
+    }
+    .twrbtn {
+     
+        font-size: 14px;}
+    .btn-kundalini {
+        
+        margin-bottom: 2rem !important;
+        text-align: center;
+    }
+    p{
+        font-size: 14px !important;
+    }
+    .tower {
+        padding: 1rem;
+        margin: 2rem 0rem;
+        min-height: auto;
+    }
+
+    .cosmic {
+        padding: 1rem;
+        margin: 2rem;
+        min-height: auto;
+    }
+
+
+    .hut {
+        padding: 1rem;
+    }
+
+    .taponagara {
+
+        padding: 1rem;
+        font-size: 30px;
+        margin: 1rem;
+    }
+
+    .Antar {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .main{
+        padding: 0rem 0rem;
+    }
+    .row{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+   
+    }
+    .palce-structure {
+        padding: 1rem 1rem !important;
+    }
+    .hero-creat-text-place p span {
+        font-size: 1.4rem;
+       
+        line-height: 1.8;
+    }
+    .place-1 {
+        display:block !important;
+        text-align: center;
+    }
+    .place-2 {
+        display:flex !important;
+        flex-direction: column-reverse;
+    }
+    
+}
+
+
+@media (min-width:701px) and (max-width:1024px) {
+    .kundali img {
+        height: auto;
+        width: 100%;
+
+    }
+ 
+    .tower {
+        padding: 2rem;
+        /* margin-top: 6rem; */
+        margin-left: 0;
+        min-height: auto;
+    }
+
+    .cosmic {
+        padding: 2rem;
+        min-height: auto;
+        margin-top: 5rem;
+    }
+
+    p {
+        font-size: 20px;
+
+    }
+
+    .hut {
+        padding: 1rem;
+        min-height: auto;
+        margin-top: 1rem;
+    }
+
+    .taponagara {
+
+        padding: 1rem;
+        font-size: 22px;
+        margin: 2rem;
+    }
+
+    .Antar {
+        padding: 1rem;
+        min-height: auto;
+        margin-top: 2rem;
+    }
+    .main{
+        padding: 0rem 2rem;
+    }
+
+}
+
+
+@media (min-width:1025px) and (max-width:1280px) {
+    .tower {
+        padding: 3rem;
+        min-height: 300px;
+        margin-left: 7rem;
+    }
+    .hut {
+        min-height: auto;
+    }
+
+    .Antar {
+        min-height: auto;
+    }
+    .main{
+        padding: 0rem 3rem;
+    }
+}
+
+.hero-creat-text-place li {
+    list-style-type: disc;
+    font-size: 3rem;
+    line-height: 1;
+    color: #FFC400;
+}
+
+.hero-creat-text-place li span {
+    font-size: 1.8rem;
+    color: black;
+    vertical-align: middle;
+    font-weight: 400;
+}
+.btn-kundalini {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.taponagara-video video{
+    object-fit: cover;
+}
+.palce-structure{
+    padding: 1rem 4rem;
+}

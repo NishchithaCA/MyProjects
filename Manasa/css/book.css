@@ -1,0 +1,478 @@
+.book-select:after {
+    content: '▼';
+    font-size: 2rem;
+    color: #FFD500;
+    right: 25px;
+    top: 0px;
+    height: 34px;
+    padding: 15px 0px 0px 8px;
+
+    position: absolute;
+    pointer-events: none;
+}
+
+.shop-cart img {
+    width: 20px !important;
+    height: 20px !important;
+    color: #000;
+}
+
+.shop-cart {
+    background: white;
+    padding: 3%;
+    border-radius: 100%;
+}
+
+.book-select select::-ms-expand {
+    display: none;
+}
+
+.fa-star {
+
+    font-size: 1.5rem;
+    color: #FFD500;
+    margin-top: 0.6rem;
+
+}
+
+.book-select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+
+    display: block;
+    box-shadow: 0px 3px 4px 2px #c1c1c1;
+    width: 240px;
+    border-radius: 10px;
+    font-size: 2.4rem;
+    font-weight: 500;
+    height: 43px;
+    float: right;
+    margin: 5px 0px;
+    padding: 0px 24px;
+    font-size: 18px;
+    line-height: 1.75;
+    color: #000;
+    background-color: #ffffff;
+    background-image: none;
+
+    -ms-word-break: normal;
+    word-break: normal;
+}
+
+.book .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book-select {
+    float: right;
+}
+
+.book-total .row {
+    padding: 0% 5%;
+}
+
+.book-img-1 img {
+    /* object-fit: contain; */
+    /* width: 50%; */
+    width: 225px;
+    height: auto;
+
+}
+
+.book-img-1 {
+    margin-bottom: 5rem;
+}
+
+.text-price {
+    display: flex;
+    background: #E7F3FC;
+
+    width: 225px;
+    box-shadow: 0px 3px 4px 2px #c1c1c1;
+    justify-content: space-around;
+    margin-top: 2rem;
+    align-items: center;
+    padding: 0rem 0%;
+    margin-left: 1%;
+}
+
+.text-price img {
+    width: 35px;
+    height: 35px;
+}
+
+.text-price p {
+    font-weight: 400;
+    margin-bottom: 0% !important;
+    font-size: 1.4rem;
+}
+
+.e-book {
+    border-left: 1px solid #707070;
+    padding-left: 1rem;
+
+}
+
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+.grid figure figcaption,
+.grid figure figcaption>a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+figure.effect-zoe figcaption {
+    top: auto;
+    bottom: 0;
+    padding: 0.8rem;
+    height: 6em;
+    background: #fff;
+
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+}
+
+
+figure.effect-zoe a {
+    display: inline-block;
+}
+
+
+
+figure.effect-zoe:hover figcaption {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.quick-view {
+    padding: 2rem 0rem;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.quick-view span {
+    text-decoration: none;
+    color: #000;
+    font-size: 2rem;
+    border: 1px solid #707070;
+    padding: 0.5rem 2rem;
+    margin-top: 2rem;
+}
+
+.page-section {
+    text-align: center;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+
+    background-color: #fff;
+    border: none !important;
+    box-shadow: 0px 1px 2px 1px #c1c1c1;
+    border-radius: 2px;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.hero-book-text ul {
+    list-style-type: none
+}
+
+.hero-book-text p {
+    display: grid;
+    grid-template-columns: 20px auto;
+    justify-content: start;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+
+.hero-book-text .fa-star {
+
+    font-size: 1.5rem;
+    color: #FFD500;
+    margin-top: 0.6rem;
+
+}
+
+.hero-book-text p span {
+    font-size: 2rem;
+    color: black;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-left: 1.5rem;
+}
+
+.bottom-section-book {
+    box-shadow: 0px 5px 7px 4px #c1c1c1;
+    border-radius: 5px;
+
+
+    padding: 2rem;
+    border: 1px solid #dad3d3;
+}
+
+.bottom-section-book p {
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+#myModal-cart .modal-header {
+    border-bottom:2px solid #d4cbcb !important;
+  
+}
+#myModal-cart .modal-header h2{
+    font-size: 2.5rem;
+}
+
+	#myModal-cart .modal-header .close {
+    
+    border-radius: 100%;
+    background: black;
+    padding: 1rem 1rem;
+    margin: 0.7rem 0.5rem !important;
+    color: white;
+    width: 20px;
+    height: 20px;
+    line-height: 0;
+    font-size: 1.9rem;
+    padding: 0% !important;
+  
+}
+	#myModal-cart .modal-content {
+    padding: 0.5% 1% 5% 1%;
+}
+.cart-details tr{
+    border-bottom: 35px solid white;
+    border-top: 15px solid white;
+}
+.book-exp{
+    margin-top: -6rem;
+}
+.cart-details img{
+    width: 100px;
+}
+.cart-details .col-md-4, .cart-details .col-md-1{
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    margin-top: -6rem;
+}
+.cart-details p{
+    font-size: 12px;
+}
+.cart-details .col-md-7{
+    padding-right: 0% !important; 
+}
+.sub-total{
+    display: flex;
+    justify-content: space-between;
+    border-top:2px solid #d4cbcb !important;
+    border-bottom: 2px solid #d4cbcb !important;
+    padding: 0.5rem 1rem;
+}
+.sub-total p{
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.view-cart-btn, .view-cart-btn:hover{
+    background: #119FFE;
+    color: white;
+    font-size: 16px;
+    padding: 1rem 4rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.cart-btn-sec{
+    padding: 1rem 2rem;
+}
+#myModal-cart .modal-body{
+overflow-y: scroll;
+}
+#myModal-cart.left .modal-dialog,
+#myModal-cart.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+#myModal-cart.left .modal-content,
+#myModal-cart.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+
+
+/*Left*/
+#myModal-cart.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+#myModal-cart.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+/*Right*/
+#myModal-cart.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+#myModal-cart.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+#myModal-cart .modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+#myModal-cart .modal-header {
+
+    display: block;
+}
+@media (max-width:700px) {
+    .book-select:after {
+
+        left: 213PX;
+
+    }
+    .hero-book-text p span {
+        font-size: 1.6rem;}
+    .book-img-1 {
+        display: flex;
+        margin-bottom: 5rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bottom-section-book p {
+        font-size: 1.5rem;}
+    .proceed {
+        padding: 0.5rem 1rem !important;
+    }
+
+    .view-or {
+        font-size: 1.4rem;
+        padding: 0.5rem 1rem !important;
+    }
+
+    .continue-shop {
+        padding: 0.5rem 1.7rem !important;
+    }
+
+    .book .row {
+        padding-right: 0%;
+        padding-left: 0%;
+        margin: 0% !important;
+        flex-direction: column;
+    }
+
+    .book-head {
+        margin: 4rem 0rem;
+    }
+
+    .book-total .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .grid img {
+        /* object-fit: contain; */
+        /* width: 50%; */
+        width: 208px;
+        height: auto;
+    }
+
+    .hero-book-text p span {
+        font-size: 1.4rem;
+    }
+    .book-select {
+        display: flex;
+        justify-content: center;
+    }
+    .row{
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+    .head-top{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+}
+
+
+
+.modal-content .row {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+}
+
+/* .active,
+.demo:hover {
+    opacity: 1;
+} */
+
+
+.page-row {
+    display: flex;
+    justify-content: center;
+}
+
+.right-content tr td:nth-child(1) {
+    width: 100px;
+    font-weight: 600;
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+
+/*Pagination CSS*/
+#page_navigation {
+    clear:both;
+    margin: 0px 0;
+    border-radius: 3px;
+  }
+  #page_navigation a{
+      padding:8px 10px;
+      /* border:1px solid #2e6da4; */
+      /* margin:2px; */
+      box-shadow: 0px 2px 1px 0px #c1c1c1;
+      color:black;
+      text-decoration:none;
+      font-weight: 600;
+      
+  }
+  .active_page{
+      background:#5DB1E9;
+      color:white !important;
+  }
+  .book-image{
+      text-align: center;
+
+  }
+  .download-msg-book{
+    
+    border-radius: 7px;
+    box-shadow: 0px 3px 4px 2px #c1c1c1;
+    height: auto;
+    padding: 0rem 0rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.download-msg-book span{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.download-msg-book img{
+    width: 40px !important;
+
+}
+.bottom-book{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bottom-read{
+    margin-top: 5rem;
+    text-align: center;
+}
+.bottom-read a{
+    text-decoration: none;
+    color: #5DB1E9;
+    font-size: 2rem;
+    font-weight: 600;
+    background: #FAFBF9;
+    padding: 1rem 4rem;
+    border-radius: 5px;
+    float: right;
+}
+@media (max-width:700px) {
+    .row{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+   .physicianBox img{
+       width: 100%;
+   } 
+   .let-there-be-head{
+       margin: 4rem 0rem;
+   }
+   .bottom-book {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+#page_navigation{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.bottom-read a {
+    padding: 1rem 3rem;
+    font-size: 14px;
+    float: none;}}

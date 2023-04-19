@@ -1,0 +1,341 @@
+ .main {
+     padding: 0rem 9rem;
+ }
+
+ .para {
+     margin-top: 7rem;
+ }
+
+ p {
+     font-size: 18px;
+ }
+
+
+ .amara {
+     padding: 0rem 2rem 1rem 25rem;
+     border-radius: 50px;
+     box-shadow: 0px 5px 7px 4px #c1c1c1;
+     margin-left: -18rem;
+     margin-bottom: 5rem;
+
+ }
+
+ .amara h1 {
+     background: url(../images/about/head-bg.png);
+     color: #fff;
+     text-align: center;
+     background-size: cover;
+     width: 70%;
+     margin-left: 10rem;
+
+ }
+
+ #amara img {
+     z-index: 9;
+     position: relative;
+     margin-top: 6rem;
+     width: 90%;
+ }
+
+ .amara p {
+     margin-bottom: 2rem;
+ }
+
+
+
+
+
+ .guruji {
+     padding: 0rem 25rem 1rem 2rem;
+     border-radius: 50px;
+     box-shadow: 0px 5px 7px 4px #c1c1c1;
+     margin-right: -18rem;
+ }
+
+ .top-head-gu {
+     display: flex;
+     justify-content: center;
+ }
+
+ .guruji h1 {
+     background: url(../images/about/head-bg.png);
+     color: #fff;
+     text-align: center;
+     background-size: cover;
+     width: 70%;
+     margin-left: 10rem;
+
+ }
+
+ #guruji img {
+     z-index: 9;
+     position: relative;
+     margin-top: 15rem;
+     width: 90%;
+ }
+
+ .guruji p {
+     margin-bottom: 2rem;
+ }
+
+ .more {
+     background: #24B4EB;
+     margin: 7rem 0rem;
+     padding: 1rem 4rem;
+     border-radius: 15px;
+ }
+
+ .more a {
+     color: #fff;
+ }
+
+ .more a:hover {
+     color: #24B4EB;
+ }
+
+ .more {
+     color: #24B4EB;
+
+ }
+ .view-founder{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1.3rem;
+}
+
+ @media (max-width:500px) {
+    .row {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+     .amara {
+         padding: 1rem;
+         margin-left: 0rem;
+         margin-top: 2rem;
+         border-radius: 20px;
+     }
+     p {
+        font-size: 14px;
+    }
+     .amara h1 {
+         width: 90%;
+         font-size: 17px;
+         margin-left: 1rem;
+     }
+
+     .guruji {
+         margin-right: 0rem;
+         padding: 1rem;
+         border-radius: 20px;
+     }
+
+     .guruji h1 {
+         width: 85% !important;
+         font-size: 15px !important;
+         margin-left: 2rem !important;
+         margin-top: -0.9rem !important;
+     }
+
+     #guruji img {
+         margin-top: 0rem !important;
+     }
+
+     #amara img {
+         margin-top: 0rem !important;
+     }
+
+     .more {
+         margin: -11rem 0rem !important;
+         font-size: 11px !important;
+     }
+
+     .main {
+         padding: 0rem 0rem;
+     }
+
+     #amara .img,
+     #guruji .img {
+         display: flex;
+         justify-content: center;
+         margin-bottom: 2rem;
+     }
+
+     #amara .img img,
+     #guruji img {
+         width: 60% !important;
+     }
+
+     #trapezoid {
+         width: 55% !important;
+         font-size: 1.3rem !important;
+         margin-left: 0% !important;
+         margin-top: -1rem;
+     }
+
+     #guruji .row {
+         display: flex;
+         flex-direction: column-reverse
+     }
+
+     .last-video iframe {
+         height: 300px;
+     }
+     #trapezoid p{
+        margin-top: 0rem !important;
+        font-size: 14px !important;
+    }
+    .view-founder{
+        display: flex;
+        justify-content: center;
+    }
+ }
+
+
+ @media (min-width:501px)and (max-width:1024px) {
+     .amara {
+         padding: 0rem 2rem 2rem 2rem;
+         margin-left: 0rem;
+         margin-top: 5rem;
+
+     }
+     .view-founder{
+        display: flex;
+        justify-content: center;
+    }
+     #guruji .row img {
+         margin-top: 2rem !important;
+     }
+     #guruji .row {
+        display: flex;
+        flex-direction: column-reverse
+    }
+
+     #trapezoid {
+         width: 75% !important;
+         font-size: 1.6rem !important;
+         margin-left: 0% !important;
+         margin-top: 0rem;
+     }
+
+     .amara h1 {
+         font-size: 23px;
+         margin-left: 3rem;
+         margin-right: 3rem;
+         width: 85%;
+     }
+
+     #amara img {
+         margin: 0;
+     }
+
+     .guruji {
+         padding: 0rem 2rem 2rem 2rem;
+         margin-right: 0rem;
+         margin-top: 5rem;
+     }
+
+     .guruji h1 {
+         font-size: 23px !important;
+         margin-left: 3rem;
+         width: 85% !important;
+     }
+
+     #guruji img {
+         margin: 0 !important;
+     }
+
+     .more {
+         margin: -13rem 0rem;
+     }
+
+     .img {
+         display: flex;
+         flex-direction: column;
+         align-content: center;
+         flex-wrap: wrap;
+     }
+
+     .img img {
+         width: 60% !important;
+     }
+
+     .main {
+         padding: 0rem 2rem;
+     }
+
+
+ }
+
+ @media(min-width:1025px) and (max-width:1280px) {
+
+     .amara h1 {
+         width: 95%;
+         font-size: 33px;
+         margin-left: 0rem;
+     }
+
+     #amara img {
+         margin-top: 11rem;
+         width: 100%;
+     }
+
+     .guruji h1 {
+         width: 100%;
+         font-size: 33px;
+     }
+
+     #guruji img {
+         margin-top: 22rem;
+         width: 100%;
+     }
+
+     .main {
+         padding: 0rem 2rem;
+     }
+ }
+
+ @media (min-width:1281px) {
+     .amara h1 {
+         width: 95%;
+         font-size: 35px;
+         margin-left: 0rem;
+     }
+
+     .guruji h1 {
+         width: 100%;
+         margin-left: 3rem;
+     }
+ }
+
+ #trapezoid {
+     width: 460px;
+     height: 50px;
+     background: #5DB1E9;
+     margin-left: 45px;
+     position: relative;
+     color: white;
+     font-size: 2rem;
+     font-weight: 600;
+     text-align: center;
+ }
+
+ #trapezoid:before {
+     content: '';
+     border-right: 45px solid #5DB1E9;
+     border-bottom: 50px solid transparent;
+     position: absolute;
+     left: -45px;
+     top: 0;
+ }
+
+ #trapezoid:after {
+     content: '';
+     border-left: 45px solid #5DB1E9;
+     border-bottom: 50px solid transparent;
+     position: absolute;
+     right: -45px;
+     top: 0;
+ }
+ #trapezoid p{
+    margin-top: 1rem;
+    }

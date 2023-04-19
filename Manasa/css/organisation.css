@@ -1,0 +1,314 @@
+.hero-section-below {
+    padding: 4% 3% 0% 3%;
+}
+
+.left-part {
+    border-left: 5px solid #5DB1E9;
+    margin-bottom: 3rem;
+}
+
+.left-part h4,
+.left-part h3 {
+    margin-left: 1rem;
+}
+
+.left-part h4 {
+    font-size: 2.5rem;
+}
+
+.left-part h3 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+.right-img img {
+    width: 100%;
+}
+
+.right-part p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 2%;
+}
+
+.right-part p:nth-child(2) {
+    margin-top: 1.6rem;
+}
+
+.tab-section {
+    padding: 1% 5%;
+}
+
+.tab-box {
+    padding: 0% 3%;
+}
+
+.tab-box h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+
+}
+
+.text-tab p {
+    font-size: 2rem;
+}
+
+.tab-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-buttons li {
+    background: #E9E9E9;
+    font-size: 2rem;
+    text-align: center;
+    padding: 1% 2.5%;
+    border-radius: 3px;
+    font-weight: 400;
+
+
+}
+
+.tabs .active-tab {
+    background: #5DB1E9;
+    color: #fff;
+}
+
+.tabs .active-tab:after {
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    content: "";
+    bottom: -0.1em;
+    left: 0;
+    background: white;
+}
+
+.tab-body {
+    padding: 3% 0% !important;
+}
+
+.head-box {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs-content li {
+    display: none;
+}
+
+.tab-body img {
+    width: 25px;
+    margin-top: 0.6rem;
+    margin-right: 2rem;
+
+}
+
+.tab-body li {
+    font-size: 1.9rem;
+
+
+}
+
+.bottom-section {
+
+    padding: 0% 2% 4%;
+}
+
+.bottom-section .card {
+    padding: 0% 4%;
+}
+
+.bottom-section .card {
+    background: #e7f3fc;
+    min-height: 455px;
+    width: 95%;
+}
+
+.bottom-section .card p {
+    font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+
+.saptarishi,
+.affirmations {
+    background: #24B4EB;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 2.5% 8%;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.img-text {
+    display: flex;
+
+}
+.hero-creat-text-org p {
+    display: grid;
+    grid-template-columns: 20px auto;
+    justify-content: start;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.hero-creat-text-org .fa-star{
+
+    font-size: 1.5rem;
+    color: #FFD500;
+    margin-top: 0.6rem;
+
+}
+
+.hero-creat-text-org p span {
+    font-size: 1.8rem;
+    color: black;
+    vertical-align: middle;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    line-height: 1.6;
+
+}
+.tabs-content .fa-star{
+  font-size: 1.7rem !important;
+    color: #0D9FFF !important; 
+}
+.org-right {
+    padding-left: 0% !important;
+}
+@media only screen and (max-width: 700px) {
+    .row{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+    .right-part {
+        margin-top: 3rem;
+    }
+   
+    .tab-body li {
+        font-size: 1.6rem;
+    }
+
+    .left-part h4 {
+        font-size: 1.8rem;
+    }
+
+    .left-part h3 {
+        font-size: 2rem;
+    }
+
+    .right-part p {
+        font-size: 1.4rem;
+    }
+
+    .tab-buttons li {
+
+        font-size: 1.6rem;
+
+        padding: 2% 2.5%;
+
+    }
+
+    .bottom-section .card p {
+        font-size: 1.4rem;
+
+    }
+
+    .hero-creat-text-org p span {
+        font-size: 1.4rem !important;
+    }
+
+    .hero-creat-text-org p {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .tab-section {
+        padding: 6% 5%;
+    }
+
+    .tab-box h2 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    .left-part {
+        
+        margin-bottom: 0rem;
+    }
+    .tab-body img {
+        width: 20px;
+    }
+
+    .text-tab p {
+        font-size: 1.6rem;
+    }
+
+    .bottom-card {
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        margin-bottom: 9%;
+    }
+
+    .bottom-section .card {
+
+        min-height: auto;
+    }
+
+
+    .bottom-section .card {
+        padding: 2% 4%;
+    }
+    .tabs-content .fa-star{
+        font-size: 1.4rem !important;
+         
+      }
+      .hero-creat-text-org .fa-star{
+
+        font-size: 1.3rem !important;}
+        
+.saptarishi,
+.affirmations {
+    font-size: 1.6rem !important;  
+}
+}
+@media (min-width: 250px) and (max-width:300px) {
+    .saptarishi,
+    .affirmations {
+        font-size: 1.3rem !important;  
+    }
+    .right-part p {
+        font-size: 1.2rem;
+    }
+    .hero-creat-text-org p span {
+        font-size: 1.2rem !important;
+    }
+    .bottom-section .card p {
+        font-size: 1.2rem !important;
+    }
+}
+@media (min-width: 701px) and (max-width:1024px) {
+    p{
+        font-size: 2rem !important;
+    }
+    .bottom-section .card {
+        margin-bottom:  3rem !important;
+    }
+}
+
+/* .hero-creat-text-org li {list-style-type:  disc; font-size:3rem;line-height: 1; 
+    color: #FFD500;
+margin-left: 1rem;}
+    .hero-creat-text-org li span {font-size:1.8rem; color: black;vertical-align:middle;font-weight: 400; } */

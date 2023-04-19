@@ -1,0 +1,89 @@
+.table-cart-sec {
+    padding: 4rem 2rem;
+}
+
+.table-cart-sec table {
+    width: 100%;
+}
+
+.table-cart-sec table tr {
+    border-bottom: 2px solid rgb(221, 218, 218);
+}
+
+.table-cart-sec table th,
+.table-cart-sec table td {
+
+    padding: 1rem 0rem;
+    text-align: center;
+    vertical-align: top;
+}
+
+.table-cart-sec table td img {
+    width: 100px;
+}
+
+.table-cart-sec .fa-times {
+    font-size: 1.4rem;
+    color: #D90606;
+}
+
+.quantity input {
+    width: 50px;
+    text-align: center;
+    color: white;
+    background: #E0E3E5;
+    border-radius: 20px;
+}
+
+.quantity a {
+
+    margin: 0rem 1rem;
+    font-weight: 700;
+}
+
+tbody:before {
+    line-height: 3rem;
+    content: "-";
+    color: white;
+    /* to hide text */
+    display: block;
+}
+.total-amount p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.total-amount{
+    border-bottom: none !important;
+} 
+.clear-amount{
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+}
+.clear-btn{
+    background: #119FFE;
+    color: white;
+    font-size: 16px;
+    padding: 1rem 4rem;
+  margin-right: 2rem;
+    display: block;
+    text-align: center;
+}
+@media (max-width:700px) {
+    
+    .table-cart-sec table th,
+.table-cart-sec table td {
+
+    padding: 1rem 2.5rem;
+}
+.table-cart{
+    overflow-x: scroll
+}
+.clear-btn {
+   
+    font-size: 12px;
+    padding: 1rem 1rem;
+    
+}
+    
+}
