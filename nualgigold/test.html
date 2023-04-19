@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+ 
+    <title>Document</title>
+    <style>
+        
+   
+
+        .time_slot-wrapper{
+            /* border: 1px solid orange; */
+            margin-top: 6rem;
+        }
+        .time_slot-wrapper .head{
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            background-color:#026536;
+		color: white
+        }
+        
+        
+        .time_slots-inner-wrapper{
+            /* border: 1px solid orangered; */
+            margin-top: 1rem;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+        
+            position: relative;
+           
+        }
+        .time_slots-inner-wrapper .time-slots{
+            border: 1px solid #CACACA;
+            font-style: normal;
+            font-weight: 400;
+            border-radius: 10px;
+            position: relative;
+            margin: 2rem;
+            
+        }
+        
+.time-slots label {
+   color: black;
+		
+		background-color: rgb(231, 241, 250);
+		font-size: 1.8rem;
+		border-radius:10px ;
+		margin-bottom:0% !important;
+		font-weight: 400;
+		padding: 1.2rem 4rem;
+  }
+  
+
+
+  .time-slots [type="radio"] {
+    z-index: 9999 !important;
+    opacity: 0 !important;
+    position: absolute;
+    top: 34%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 180%;
+ 
+    cursor: pointer;
+  }
+  /* input.radio:focus ~ label {
+    outline: 2px solid blue;
+  } */
+  .radio:checked ~ label {
+    background-color:#026536;
+		color: white;
+    z-index: 2;
+  }
+  .radio:hover ~ label{
+    background-color:#026536;
+		color: white
+  }
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="time_slots-inner-wrapper">
+        <div class="time-slots">
+
+        <input class="radio" type="radio" id="slot_time" name="slot_time" value="9:00AM "><label for="slot_time">Home </label>
+            
+        </div>
+        <div class="time-slots">
+        <input class="radio" type="radio" id="slot_time" name="slot_time" value="10:00AM"><label for="slot_time">Work </label>
+        </div>
+        <div class="time-slots">
+        <input class="radio" type="radio" id="slot_time" name="slot_time" value="11:00AM"><label for="slot_time">Other </label>
+        </div>
+      
+    </div>
+   <!-- <script>
+       var timeSlot = document.querySelector(".time-slots");
+var scheduleCal = document.querySelector(".schedule_calender");
+var scheduleTime = document.querySelector(".schedule_time");
+var btnTime = document.querySelector(".button_time");
+var backBtn = document.querySelector(".back_btn");
+
+// timeSlot.addEventListener('click', ()=>{
+//     timeSlot.classList.add('.new_color-class');
+//     console.log("color");
+// });
+
+
+btnTime.addEventListener('click', ()=>{
+    console.log("schedule time");
+    if(scheduleCal.style.display === 'block'){
+        scheduleCal.style.display = 'none';
+        scheduleTime.style.display = 'block';
+    }else {
+        scheduleCal.style.display = 'block';
+        scheduleTime.style.display = 'none';
+      }
+});
+
+backBtn.addEventListener('click', ()=>{
+    console.log("schedule time");
+    if(scheduleTime.style.display === 'block'){
+        scheduleTime.style.display = 'none';
+        scheduleCal.style.display = 'block';
+    }else {
+        scheduleTime.style.display = 'block';
+        scheduleCal.style.display = 'none';
+      }
+});
+   </script> -->
+</body>
+</html>

@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRatings&Reviews</title>
+
+    <link rel="icon" type="image/x-icon" href="/assets/Images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/rating-reviews.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <section class="top_part-outer">
+            <div class="top_part-inner">
+                <div class="left_part">
+                    <div class="phone">
+                        <div class="image_container">
+                            <img src="assets/images/header/header-phone-icon.svg" alt="icon">
+                        </div>
+                        <span class="for_right-border">
+                            +91-9886620003
+                        </span>
+                        <!--<span>-->
+                        <!--    +91-80-26591524-->
+                        <!--</span>-->
+                    </div>
+                    <div class="mail">
+                        <div class="image_container">
+                            <img src="assets/images/header/header-mail-icon.svg" alt="icon">
+                        </div>
+                        <span>
+                            info@nualgigold.com
+                        </span>
+                        <!--<span>-->
+                        <!--    madhu@nualgi.com-->
+                        <!--</span>-->
+                    </div>
+                </div>
+                <div class="right_part">
+                    <div class="language">
+                        <span>Language</span>
+                        <div class="language_dropdown"></div>
+
+                        <!-- language dropdown list -->
+                        <div class="language_dropdown-list">
+                            <ul>
+                                <li>English</li>
+                                <li>Hindi</li>
+                                <li>Tamil</li>
+                                <li>Telugu</li>
+                                <li>Malayalam</li>
+                                <li>Kannada</li>
+                            </ul>
+                        </div>
+                        <!-- ends language dropdown list -->
+
+                    </div>
+                    <div class="social_links">
+                        <a href="https://m.facebook.com/Nualgi-Gold-101633295683501/?ref=bookmarks"> <i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/nualgigold/"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"> <i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- header nav part -->
+        <section class="nav_part-outer">
+            <div class="nav_part-inner">
+                <div class="logo_container">
+                    <a href="home.html"> <img src="assets/images/header/Nualgi-updated-logo-opt-2.png" alt="logo"></a>
+                </div>
+                <nav class="links_container menu">
+                    <ul>
+                        <li>
+                            <a href="home.html" class="home-active">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="dropdown">
+                            <div class="product_page-link">
+                                Products
+                            </div>
+                            <ul class="dropdown_container">
+                                <li>
+                                    <a href="plant.html">
+                                        Foliar Spray Gold - Plants and Crops
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="soil.html">
+                                        Foliar Spray Gold - Soil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fish.html">
+                                        Fisheries Gold
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="water.html">
+                                        Multi Solutions Gold
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="gallery.html">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="certification.html">
+                                Certifications
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="login_button-profile">
+                            <a href="#">
+                                <img src="assets/Images/home-after-login/Profile-icon.png">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Responsive menu -->
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <!-- Ends responsive menu -->
+
+
+            </div>
+        </section>
+    </header>
+
+    <!-- Hero section -->
+
+    <!------ for desktop view ------>
+    <section class="rating-review-content desktop-mode" style=" padding: 5rem 10rem;">
+
+        <h2>My Ratings & Reviews</h2>
+        <div class="row  rating-review-content-inner ">
+
+            <div class="col-md-8 rating-review-content-inner-left">
+                <div class="row rate-section">
+                    <div class="col-sm-2 bottle-img"><img src="assets/Images/home/Crops-opt-2.png"></div>
+                    <div class="col-md-8 spray-name">
+                        <h4>Foliar spray gold for plants and crops </h4>
+                        <h5>500 ml</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <div class="comments">
+                            <h3>Really good product.Quick result and eco friendly product</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-2 right-icons">
+
+                        <a href="#" data-toggle="modal" data-target="#myModaledit"> <i class="fas fa-pen"></i></a>
+                        <i class="far fa-trash-alt delete"></i>
+                    </div>
+
+                </div>
+                <div class="row rate-section">
+                    <div class="col-sm-2 bottle-img"><img src="assets/Images/home/Crops-opt-2.png"></div>
+                    <div class="col-md-8 spray-name review-our-serviews">
+                        <h4>Foliar spray gold for plants and crops </h4>
+                        <h5>500 ml</h5>
+                        <div class="rate-review">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <div class=" review-our-serviews-inner">
+                                <a  href="javascript:show('hide');" id="showLink">Review Our Product</a>
+
+
+                            </div>
+
+                        </div>
+                        <div id="hide" style="display: none;">
+                            <textarea  rows="4" cols="50">
+                     
+                            </textarea>
+                          </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            <div class="col-md-3   rating-review-content-inner-right tab-menu-profile">
+
+
+                <ul>
+                    <li><a href="my-profile.html" class="tab-a-pro " data-id="tab1">My Profile <i
+                                class="fas fa-angle-right"></i></a></li>
+                    <li><a href="my-orders.html" class="tab-a-pro" data-id="tab2"> My Orders <i
+                                class="fas fa-angle-right"></i></a>
+                    </li>
+                    <li><a href="ratings-reviews.html" class="tab-a-pro active-a-profile">My Ratings & reviews <i
+                                class="fas fa-angle-right"></i></a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+
+                <div class="deactivate-button">
+                    <button class="deactivate-account">Deactivate Account</button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-------------------------------- desktop-mode ends here -------------------------------------------------->
+
+      <!------ for mobile view ------>
+      <section class="rating-review-content mobile-mode" >
+
+        <h2>My Ratings & Reviews</h2>
+        <div class="row  rating-review-content-inner ">
+
+            <div class="col-md-3   rating-review-content-inner-right tab-menu-profile">
+
+
+                <ul>
+                    <li><a href="my-profile.html" class="tab-a-pro " data-id="tab1">My Profile <i
+                                class="fas fa-angle-right"></i></a></li>
+                    <li><a href="my-orders.html" class="tab-a-pro" data-id="tab2"> My Orders <i
+                                class="fas fa-angle-right"></i></a>
+                    </li>
+                    <li><a href="ratings-reviews.html" class="tab-a-pro active-a-profile">My Ratings & reviews <i
+                                class="fas fa-angle-right"></i></a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+
+                <div class="deactivate-button">
+                    <button class="deactivate-account">Deactivate Account</button>
+                </div>
+
+
+            </div>
+
+            <div class="col-md-8 rating-review-content-inner-left">
+                <div class="row rate-section">
+                    <div class="col-sm-2 bottle-img"><img src="assets/Images/home/Crops-opt-2.png">
+                        <div class="right-icons">
+
+                            <a href="#" data-toggle="modal" data-target="#myModaledit"> <i class="fas fa-pen"></i></a>
+                            <i class="far fa-trash-alt delete"></i>
+                        </div></div>
+                    <div class="col-md-8 spray-name">
+                        <h4>Foliar spray gold for plants and crops </h4>
+                        <h5>500 ml</h5>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <div class="comments">
+                            <h3>Really good product.Quick result and eco friendly product</h3>
+                        </div>
+                    </div>
+                   
+
+                </div>
+                <div class="row rate-section">
+                    <div class="col-sm-2 bottle-img"><img src="assets/Images/home/Crops-opt-2.png"></div>
+                    <div class="col-md-8 spray-name review-our-serviews">
+                        <h4>Foliar spray gold for plants and crops </h4>
+                        <h5>500 ml</h5>
+                        <div class="rate-review">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <div class=" review-our-serviews-inner">
+                                <a  href="javascript:show('hide');" id="showLink">Review Our Product</a>
+
+
+                            </div>
+
+                        </div>
+                        <div id="hide" style="display: none;">
+                            <textarea  rows="4" cols="50">
+                     
+                            </textarea>
+                          </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+            
+
+        </div>
+
+
+    </section>
+
+
+    <!-------------------------------- mobile-mode ends here -------------------------------------------------->
+
+
+
+    <!-- footer section -->
+
+    <section class="footer">
+        <div class="row footer-top">
+            <div class="col-md-3 col1">
+                <a href="home.html"> <img src="assets/images/contact-us/Nualgi-updated-logo-white.png"></a>
+                <p> Marketed by SD Trading<br> Bangalore
+                    <br><br>
+                    +91 98866 20003
+                    <br><br>
+                    info@nualgigold.com
+                </p>
+                <div class="social_links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+            <div class="col-md-2 col2">
+                <h4>Company</h4>
+                <div class="links">
+                    <a href="home.html">About</a>
+                    <a href="water.html">Products</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="certification.html">Certifications</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-md-2  col2">
+                <h4>Services</h4>
+                <a href="#">Login</a>
+                <a href="#">My Accounts</a>
+                <a href="#">My Orders</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="col-md-5 col4">
+                <p>News Letter</p>
+                <form class="example">
+                    <input type="text" placeholder="Email" name="search2">
+                    <button type="submit"><img src="assets/Images/contact-us/arrow-up.svg"></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+
+            <p> All Rights Reserved By nualgigold.com @2021 </p>
+
+            <div class="right-content">
+                <p class="for-space">Terms & Conditions</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Modal for edit  -->
+
+    <!-- Modal -->
+    <div class="modal" id="myModaledit">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">Review our product</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <form>
+                        <div class="rating-box">
+                            <div class="rating-container">
+                                <input type="radio" name="rating" value="5" id="star-5"> <label
+                                    for="star-5">&#9733;</label>
+
+                                <input type="radio" name="rating" value="4" id="star-4"> <label
+                                    for="star-4">&#9733;</label>
+
+                                <input type="radio" name="rating" value="3" id="star-3"> <label
+                                    for="star-3">&#9733;</label>
+
+                                <input type="radio" name="rating" value="2" id="star-2"> <label
+                                    for="star-2">&#9733;</label>
+
+                                <input type="radio" name="rating" value="1" id="star-1"> <label
+                                    for="star-1">&#9733;</label>
+                            </div>
+
+                        </div>
+
+                        <div class="textarea-section">
+                            <textarea rows="4" cols="50">
+
+                        </textarea>
+                        </div>
+                        <div class="submit-btn">
+                            <button>Submit</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/my-profile/address-type.js"></script>
+    <script src="assets/js/my-profile/tabs.js"></script>
+    <script src="assets/js/home/home.js"></script>
+    <script src="assets/js/home/toggle.js"></script>
+    <script src="assets/js/ratings-reviews/rate-delete.js"></script>
+    <script src="assets/js/ratings-reviews/toggle-rate.js"></script>
+</body>
+
+</html>

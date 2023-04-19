@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+
+    <link rel="icon" type="image/x-icon" href="/assets/Images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/my-orders.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <section class="top_part-outer">
+            <div class="top_part-inner">
+                <div class="left_part">
+                    <div class="phone">
+                        <div class="image_container">
+                            <img src="assets/images/header/header-phone-icon.svg" alt="icon">
+                        </div>
+                        <span class="for_right-border">
+                            +91-9886620003
+                        </span>
+                        <!--<span>-->
+                        <!--    +91-80-26591524-->
+                        <!--</span>-->
+                    </div>
+                    <div class="mail">
+                        <div class="image_container">
+                            <img src="assets/images/header/header-mail-icon.svg" alt="icon">
+                        </div>
+                        <span>
+                            info@nualgigold.com
+                        </span>
+                        <!--<span>-->
+                        <!--    madhu@nualgi.com-->
+                        <!--</span>-->
+                    </div>
+                </div>
+                <div class="right_part">
+                    <div class="language">
+                        <span>Language</span>
+                        <div class="language_dropdown"></div>
+
+                        <!-- language dropdown list -->
+                        <div class="language_dropdown-list">
+                            <ul>
+                                <li>English</li>
+                                <li>Hindi</li>
+                                <li>Tamil</li>
+                                <li>Telugu</li>
+                                <li>Malayalam</li>
+                                <li>Kannada</li>
+                            </ul>
+                        </div>
+                        <!-- ends language dropdown list -->
+
+                    </div>
+                    <div class="social_links">
+                        <a href="https://m.facebook.com/Nualgi-Gold-101633295683501/?ref=bookmarks"> <i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/nualgigold/"> <i class="fab fa-instagram"></i></a>
+                        <a href="#"> <i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- header nav part -->
+        <section class="nav_part-outer">
+            <div class="nav_part-inner">
+                <div class="logo_container">
+                    <a href="home.html"> <img src="assets/images/header/Nualgi-updated-logo-opt-2.png" alt="logo"></a>
+                </div>
+                <nav class="links_container menu">
+                    <ul>
+                        <li>
+                            <a href="home.html" class="home-active">
+                                Home
+                            </a>
+                        </li>
+
+                        <li class="dropdown">
+                            <div class="product_page-link">
+                                Products
+                            </div>
+                            <ul class="dropdown_container">
+                                <li>
+                                    <a href="plant.html">
+                                        Foliar Spray Gold - Plants and Crops
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="soil.html">
+                                        Foliar Spray Gold - Soil
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="fish.html">
+                                        Fisheries Gold
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="water.html">
+                                        Multi Solutions Gold
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a href="gallery.html">
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="certification.html">
+                                Certifications
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                Contact Us
+                            </a>
+                        </li>
+                        <li class="login_button-profile">
+                            <a href="#">
+                                <img src="assets/Images/home-after-login/Profile-icon.png">
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Responsive menu -->
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <!-- Ends responsive menu -->
+
+
+            </div>
+        </section>
+    </header>
+
+    <style>
+
+    </style>
+    <!-- Hero section -->
+    <section class="my-order">
+        <div class="head-section">
+            <h3>My Orders</h3>
+
+            <div class="filter">
+
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">
+                        <i class="fas fa-sort-amount-down"></i> Filter
+                    </button>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#">3 Months</a>
+                        <a class="dropdown-item" href="#">6 Months</a>
+                        <a class="dropdown-item" href="#">Older</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-details">
+            <div class="order-details-top">
+                <div class="order-details-top-left">
+                    <p>Order Placed</p>
+                    <h2>November 23,2021</h2>
+                </div>
+                <div class="order-details-top-right">
+                    <h2>ORDER # D01-4965779-9196549</h2>
+                </div>
+
+            </div>
+            <div class="order-details-bottom">
+                <div class="row">
+
+                    <div class="col-md-5 product d-flex">
+                        <div class=" product-image"><img src="assets/Images/home/Plants-opt-2.png"></div>
+                        <div class="  product-title ml-5">
+                            <h3>Foliar Spray Gold for Plants and Crops 500ml(3)</h3>
+
+
+                            <div class="timeline-section">
+                                <ul class="timeline">
+
+                                    <li data-text="Ordered" class="ordered"></li>
+                                  
+
+                                    <!-- include class "delivered from css while calling the delivered condition" -->
+                                    <li data-text="Delivered"></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="record-btn">Reorder</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 product-address">
+                        <div class="delivary-address d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Delivery Address</h3>
+                        </div>
+                        <h4>Home</h4>
+                        <p>PlotNo,44,HosurRd,KonappanaAgrahara,
+                            ElectronicCity,Bengaluru,Karnataka560100</p>
+                        <p><strong> PhoneNo:</strong> 9874563258</p>
+                    </div>
+                    <div class="col-md-2 product-price">
+                        <h3>Total</h3>
+                        <h5>₹ <span>6000</span></h5>
+                        <li><span>Delivered on Monday,june 20</span></li>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="order-details">
+            <div class="order-details-top">
+                <div class="order-details-top-left">
+                    <p>Order Placed</p>
+                    <h2>November 23,2021</h2>
+                </div>
+                <div class="order-details-top-right">
+                    <h2>ORDER # D01-4965779-9196549</h2>
+                </div>
+
+            </div>
+            <div class="order-details-bottom">
+                <div class="row">
+
+                    <div class="col-md-5 product d-flex">
+                        <div class=" product-image"><img src="assets/Images/home/Plants-opt-2.png"></div>
+                        <div class="  product-title ml-5">
+                            <h3>Foliar Spray Gold for Plants and Crops 500ml(3)</h3>
+
+                            <div class="timeline-section">
+                                <ul class="timeline">
+                                    <li data-text="Ordered"></li>
+                                    <li data-text="Packed"></li>
+                                    <li data-text="shipped"></li>
+                                    <li data-text="delivered"></li>
+
+                                </ul>
+                            </div>
+                            <div>
+                                <button class="record-btn">Reorder</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 product-address">
+                        <div class="delivary-address d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Delivery Address</h3>
+                        </div>
+                        <h4>Home</h4>
+                        <p>PlotNo,44,HosurRd,KonappanaAgrahara,
+                            ElectronicCity,Bengaluru,Karnataka560100</p>
+                        <p><strong> PhoneNo:</strong> 9874563258</p>
+                    </div>
+                    <div class="col-md-2 product-price">
+                        <h3>Total</h3>
+                        <h5>₹ <span>6000</span></h5>
+                        <li><span>Delivered on Monday,june 20</span></li>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- footer section -->
+
+    <section class="footer">
+        <div class="row footer-top">
+            <div class="col-md-3 col1">
+                <a href="home.html"> <img src="assets/images/contact-us/Nualgi-updated-logo-white.png"></a>
+                <p> Marketed by SD Trading<br> Bangalore
+                    <br><br>
+                    +91 98866 20003
+                    <br><br>
+                    info@nualgigold.com
+                </p>
+                <div class="social_links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                </div>
+            </div>
+            <div class="col-md-2 col2">
+                <h4>Company</h4>
+                <div class="links">
+                    <a href="home.html">About</a>
+                    <a href="water.html">Products</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="certification.html">Certifications</a>
+                    <a href="contact.html">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-md-2  col2">
+                <h4>Services</h4>
+                <a href="#">Login</a>
+                <a href="#">My Accounts</a>
+                <a href="#">My Orders</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+            <div class="col-md-5 col4">
+                <p>News Letter</p>
+                <form class="example">
+                    <input type="text" placeholder="Email" name="search2">
+                    <button type="submit"><img src="assets/Images/contact-us/arrow-up.svg"></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+
+            <p> All Rights Reserved By nualgigold.com @2021 </p>
+
+            <div class="right-content">
+                <p class="for-space">Terms & Conditions</p>
+                <p>Privacy Policy</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="assets/js/my-profile/address-type.js"></script>
+    <script src="assets/js/my-profile/tabs.js"></script>
+    <script src="assets/js/home/home.js"></script>
+    <script src="assets/js/home/toggle.js"></script>
+</body>
+
+</html>
