@@ -1,0 +1,643 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en">
+
+<head>
+    <title>Silqen</title>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <style type="text/css">
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+            font-family: 'Poppins';
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            line-height: 100%;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        /* iOS Blue Links */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* Table fix for Outlook */
+        table {
+            border-collapse: separate;
+        }
+
+        .ExternalClass p,
+        .ExternalClass span,
+        .ExternalClass font,
+        .ExternalClass td {
+            line-height: 100%;
+        }
+
+        .ExternalClass {
+            width: 100%;
+        }
+
+        /* Mobile Styling */
+        @media screen and (max-width: 525px) {
+            .wrapper {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .email-head{
+                font-size: 18px !important;
+            }
+
+            .hide-element {
+                display: none !important;
+            }
+
+            .no-padding {
+                padding: 0 !important;
+            }
+
+            .img-max {
+                max-width: 100% !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .table-max {
+                width: 100% !important;
+            }
+
+            .mobile-btn-container {
+                margin: 0 auto;
+                width: 100% !important;
+            }
+
+            .mobile-btn {
+                padding: 15px !important;
+                border: 0 !important;
+                font-size: 16px !important;
+                display: block !important;
+            }
+            .email-sub{
+                font-size: 10px  !important;
+            }
+            .btn-butn{
+                font-size: 14px !important;
+                padding: 5px 10px !important;
+            }
+
+          .para{
+            margin-right: 0% !important;
+          }
+          .circle-img{
+            height: 315px !important;
+            background-size: 90% !important;
+          }
+          .para-sec{
+            padding-left: 0% !important;
+          }
+          .big-img{
+            width: 100% !important;
+            margin-left: 0% !important;
+          }
+          .top-img{
+            height: 195px !important;
+          }
+        }
+
+        /* iPads (landscape) Styling */
+        @media handheld,
+        all and (device-width: 768px) and (device-height: 1024px) and (orientation : landscape) {
+            .wrapper-ipad {
+                max-width: 280px !important;
+            }
+
+            .table-max-ipad {
+                max-width: 465px !important;
+            }
+        }
+
+        /* iPads (portrait) Styling */
+        @media handheld,
+        all and (device-width: 768px) and (device-height: 1024px) and (orientation : portrait) {
+            .wrapper-ipad {
+                max-width: 280px !important;
+            }
+
+            .table-max-ipad {
+                max-width: 465px !important;
+            }
+        }
+    </style>
+</head>
+
+<body style="margin: 0 !important; padding: 0 !important;">
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center">
+
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"
+                    style="max-width: 600px;" class="wrapper">
+                    <tr>
+                        <td align="center" height="25" style="height:25px; font-size: 0;">&nbsp;</td>
+                    </tr>
+
+
+                    <tr>
+                        <td style="position:relative;"><a href="#" title="Replace with your logo" target="_blank"> <img
+                                    src="images/Logo.png" alt="Replace with your logo"
+                                    style="display: block; border:0; width:150px; height:100%;margin-left: 3rem;"> </a>
+                            <img src="images/1.png" style="position: absolute; top: 0%; right: 0%; width: 130px;"></td>
+                    </tr>
+                    <tr>
+                        <td align="center" height="25" style="height:25px; font-size: 0;">&nbsp;</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="#ffffff" align="center" style="padding: 0 10px 0 10px;">
+
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"
+                    style="max-width: 600px;" class="table-max">
+                    <tr>
+                        <td>
+                            <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td class="top-img"
+                                        style="padding: 10px 55px; background: url(images/Banner.png); height: 300px; background-repeat: no-repeat; background-size: 100%; background-position: center;">
+
+                                        <h3 class="email-head"
+                                            style="font-weight: 700; font-size:24px; color: #FF5C00;margin-bottom: 0%;margin-top: 0%;">
+                                            Hey There!</h3>
+                                        <p class="email-sub"
+                                            style="font-weight: 500; font-size:17px;width:75%; color: #000000;margin-top: 0%;">
+                                            We’re a team of passionate, talented marketing and web design professionals
+                                            who will work hard to help your business succeed.</p>
+                                            <a href="#circle"
+                                            style="position: relative;z-index: 9; text-decoration: none; margin:auto;background: #FF5C00; border-radius: 10px; color: #fff; padding: 8px 17px; font-size: 13px; font-weight: 400;">Get
+                                            started</a>
+                                        
+
+                                    </td>
+
+                                </tr>
+                                <tr style="margin: 2rem;">
+                                    <td style="position:relative;">
+                                        <img src="images/2.png"
+                                            style="position: absolute; top: 0%; left: 0%; transform: translate(0px, -34%); translate: tra; width: 140px;z-index: 0; ">
+                                    </td>
+                                </tr>
+                                <tr style="margin-top: 2rem">
+                                    <td>
+                                        <table role="presentation" width="100%" border="0" cellspacing="0"
+                                            cellpadding="0" style="margin-left:1.5rem;margin-top: 4rem;">
+                                            <tr>
+                                                <td align="center" height="25" style="height:25px; font-size: 0;">&nbsp;
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td
+                                                    style="padding-left: 3rem;display: flex;justify-content:space-between">
+                                                    <p
+                                                        style="font-size: 14px;font-weight:600;color:#000;text-align: center;">
+                                                        Digital Marketing Services</p>
+                                                    <p class="para"
+                                                        style="font-size: 14px;font-weight:600;color:#000;text-align: center;margin-right: 3rem;">
+                                                        Including Website Design<br> And Development</p>
+                                                </td>
+
+
+                                            </tr>
+                                            <tr>
+                                                <td align="center" class="circle-img" id="circle"
+                                                    style="padding: 10px 55px; background: url(images/circle.png); height:500px; background-repeat: no-repeat; background-size: 100%; background-position: center;">
+                                                    <h3 style="font-size:25px;font-weight:600" >We Offer A Wide Range
+                                                    </h3>
+                                                    <a href="https://silqen.com/"
+                                                        style="margin:auto;background: #FF5C00; border-radius: 10px; color: #fff; padding: 8px 17px; font-size: 13px; font-weight: 400;">Learn
+                                                        More</a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="para-sec"
+                                                    style="padding-left: 3rem;display: flex;justify-content:space-between">
+                                                    <p
+                                                        style="font-size: 14px;font-weight:600;color:#000;text-align: center;">
+                                                        Mobile Application Development</p>
+                                                    <p class="para"
+                                                        style="font-size: 14px;font-weight:600;color:#000;text-align: center; margin-right:5rem;">
+                                                        Search Engine Optimization </p>
+                                                </td>
+
+
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center" style="position:relative;"><img src="images/4.png"
+                                            style="position:absolute;width:120px;top:0%;right:0%;    transform: translate(0, -45%);">
+                                    </td>
+                                </tr>
+
+
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td align="center">
+
+                <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"
+                    style="max-width: 600px;" class="table-max">
+                    <tr>
+                        <td>
+                            <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0"
+                                style="margin-top: 4rem">
+                                <tr>
+                                    <td align="center" height="25" style="height:25px; font-size: 0;">&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" height="100%" valign="top" width="100%">
+
+                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0"
+                                width="100%" style="max-width:600px;margin-bottom: 2rem;">
+                                <tr>
+                                    <td align="center" valign="top" style="font-size:0;">
+
+                                        <div style="display:inline-block; max-width:50%; min-width:280px; vertical-align:top; width:100%;"
+                                            class="wrapper wrapper-ipad">
+                                            <table role="presentation" align="left" border="0" cellpadding="0"
+                                                cellspacing="0" width="100%" style="max-width:280px;"
+                                                class="wrapper wrapper-ipad">
+                                                <tr>
+                                                    <td align="center" valign="top">
+                                                        <table role="presentation" border="0" cellpadding="0"
+                                                            cellspacing="0" width="100%">
+                                                            <tr>
+                                                                <td>
+                                                                    <table role="presentation" cellpadding="0"
+                                                                        cellspacing="0" border="0" width="100%">
+                                                                        <tr>
+                                                                            <td align="center" valign="middle"><a
+                                                                                    href="#" target="_blank"><img class="big-img"
+                                                                                        src="images/img-1.png"
+                                                                                        width="280" height="153"
+                                                                                        style="display: block; border:0;margin-left: 3rem; width: 310px; height:100%;"
+                                                                                        alt="Replace with your text"
+                                                                                        border="0" class="img-max"></a>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                        <div style="display:inline-block; max-width:50%; min-width:280px; vertical-align:top; width:100%;"
+                                            class="wrapper wrapper-ipad">
+                                            <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                                width="100%">
+                                                <tr>
+                                                    <td>
+                                                        <table role="presentation" align="left" border="0"
+                                                            cellpadding="0" cellspacing="0" width="100%"
+                                                            style="max-width:280px; float: right;"
+                                                            class="wrapper wrapper-ipad">
+                                                            <tr>
+                                                                <td align="center" valign="top">
+                                                                    <table role="presentation" border="0"
+                                                                        cellpadding="0" cellspacing="0" width="100%">
+                                                                        <tr>
+                                                                            <td>
+                                                                                <table role="presentation"
+                                                                                    cellpadding="0" cellspacing="0"
+                                                                                    border="0" width="100%">
+
+
+                                                                                    <tr>
+                                                                                        <td></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td align="left">
+                                                                                            <p
+                                                                                                style="margin-top: 2rem;text-align: right; color: #000; font-size: 18px; font-weight: 300; line-height: 1.5;">
+                                                                                                Our founders had a
+                                                                                                vision of establishing
+                                                                                                an agency that
+                                                                                                would offer businesses
+                                                                                                the best possible
+                                                                                                combination of
+                                                                                                quality and value.</p>
+                                                                                        </td>
+                                                                                    </tr>
+
+
+
+
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="position: relative;">
+                                        <img src="images/3.png"
+                                            style="position: absolute;top:0%;left:0%;width: 113px; transform: translate(10px, -38%); ">
+                                    </td>
+                                </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" height="100%" valign="top" width="100%">
+
+                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0"
+                                width="100%" style="max-width:600px;margin-bottom: 2rem;">
+                                <tr>
+                                    <td align="center" valign="top" style="font-size:0;">
+                                        <div style="display:inline-block; max-width:50%; min-width:280px; vertical-align:top; width:100%;"
+                                        class="wrapper wrapper-ipad">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                            width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table role="presentation" align="left" border="0"
+                                                        cellpadding="0" cellspacing="0" width="100%"
+                                                        style="max-width:280px; float: right;"
+                                                        class="wrapper wrapper-ipad">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <table role="presentation" border="0"
+                                                                    cellpadding="0" cellspacing="0" width="100%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table role="presentation"
+                                                                                cellpadding="0" cellspacing="0"
+                                                                                border="0" width="100%">
+
+
+                                                                                <tr>
+                                                                                    <td></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="left">
+                                                                                        <p
+                                                                                            style="margin-top: 4rem;    margin-left: 1rem;text-align:left; color: #000; font-size: 18px; font-weight: 300; line-height: 1.5;">
+                                                                                            We've been in business for many years and have worked with <span style="color:#FF5C00;font-weight: 600;"> 1000+ of clients around the world </span>—so we're confident that you'll be impressed by what we can do!
+                                            </p>
+                                                                                    </td>
+                                                                                </tr>
+
+
+
+
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                        <div style="display:inline-block; max-width:50%; min-width:280px; vertical-align:top; width:100%;"
+                                            class="wrapper wrapper-ipad">
+                                            <table role="presentation" align="left" border="0" cellpadding="0"
+                                                cellspacing="0" width="100%" style="max-width:280px;margin-bottom:3rem;"
+                                                class="wrapper wrapper-ipad">
+                                                <tr>
+                                                    <td align="center" valign="top">
+                                                        <table role="presentation" border="0" cellpadding="0"
+                                                            cellspacing="0" width="100%">
+                                                            <tr>
+                                                                <td>
+                                                                    <table role="presentation" cellpadding="0"
+                                                                        cellspacing="0" border="0" width="100%">
+                                                                        <tr>
+                                                                            <td align="center" valign="middle"><a
+                                                                                    href="#" target="_blank"><img
+                                                                                        src="images/img-2.png"
+                                                                                        width="280" height="153"
+                                                                                        style="display: block; border:0;margin-left: 0rem; width: 310px; height:100%;"
+                                                                                        alt="Replace with your text"
+                                                                                        border="0" class="img-max"></a>
+                                                                            </td>
+                                                                        </tr>
+
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                   
+
+                                    </td>
+                                </tr>
+                          
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" height="100%" valign="top" width="100%">
+
+                            <table role="presentation" align="center" border="0" cellpadding="0" cellspacing="0"
+                                width="100%" style="max-width:600px;margin-bottom: 2rem;">
+                                <tr>
+                                    <td align="center" valign="top" style="font-size:0;">
+                                        <div style="display:inline-block; max-width:50%; min-width:280px; vertical-align:top; width:100%;"
+                                        class="wrapper wrapper-ipad">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0"
+                                            width="100%">
+                                            <tr>
+                                                <td>
+                                                    <table role="presentation" align="left" border="0"
+                                                        cellpadding="0" cellspacing="0" width="100%"
+                                                        style="max-width:280px; float: right;"
+                                                        class="wrapper wrapper-ipad">
+                                                        <tr>
+                                                            <td align="center" valign="top">
+                                                                <table role="presentation" border="0"
+                                                                    cellpadding="0" cellspacing="0" width="100%">
+                                                                    <tr>
+                                                                        <td>
+                                                                            <table role="presentation"
+                                                                                cellpadding="0" cellspacing="0"
+                                                                                border="0" width="100%">
+
+
+                                                                                <tr>
+                                                                                    <td></td>
+                                                                                </tr>
+                                                                                
+                                                                                <tr>
+                                                                                    <td align="left">
+                                                                                        <h3 style="margin-top: 0rem;margin-bottom:0rem;margin-left: 1rem;text-align:left; color: #000; font-size:22px; font-weight: 600; line-height: 1.3;">We Have Earned 
+                                                                                            An Average</h3>
+                                                                                        <p
+                                                                                            style="  margin-left: 1rem;margin-top:1rem;text-align:left; color: #000; font-size: 15px; font-weight: 500; line-height: 1.5;">
+                                                                                            Two distinctions that set us apart from other companies in our industry.
+ 
+                                                                                            </p>
+                                                                                    </td>
+                                                                                </tr>
+
+
+
+
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                        <div style="display:inline-block; max-width:50%; min-width:280px; vertical-align:top; width:100%;"
+                                            class="wrapper wrapper-ipad">
+                                            <table role="presentation" align="left" border="0" cellpadding="0"
+                                                cellspacing="0" width="100%" style="max-width:280px;"
+                                                class="wrapper wrapper-ipad">
+                                                <tr>
+                                                    <td align="center" valign="top">
+                                                        <table role="presentation" border="0" cellpadding="0"
+                                                            cellspacing="0" width="100%">
+                                                            <tr>
+                                                                <td>
+                                                                    <table role="presentation" cellpadding="0"
+                                                                        cellspacing="0" border="0" width="100%">
+                                                                        <tr>
+                                                                            <td  valign="middle" style="background: #FFFFFF;
+                                                                            box-shadow: 2px 1px 11px 3px rgba(0, 0, 0, 0.13);
+                                                                            border-radius: 14px; padding: 1rem;">
+                                                                            <img src="images/Google__G__Logo 1.png" style="width: 30px;">
+                                                                            <h3 style=" margin-top:0.3rem;text-align:left; color: #000; font-size: 18px; font-weight: 600; line-height: 1.5;margin-bottom: 0%;">Google Reviews</h3>
+                                                                        <img src="images/star-img.png" style="width: 100px;"> 
+                                                                        <p style=" margin-top:0.3rem;text-align:left; color: #000; font-size: 14px; font-weight: 500; line-height: 1.5;margin-bottom: 0%;">As well as a Trust Seal Certificate from<img style="width: 52px; margin-left:0.5rem;" src="images/indiamart.png"></p>   
+                                                                        </td>
+                                                                        </tr>
+
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+
+                                   
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <img src="images/img-5.png" style="width: 70%; margin-top: 3rem;">
+                                        <p style="box-shadow: 4px 4px 11px 1px rgba(0, 0, 0, 0.13);color:#fff;border-radius:8px;background:#FF5C00;padding:1.5rem 1rem;margin: 0 4rem;font-weight:600;margin-top: -5rem;position:relative">We are honored to be part of this community and We hope that the work we do reflects our gratitude.</p>
+                                    </td>
+                                    <td style="position:relative">
+                                        <img src="images/5.png" style="position: absolute;top:0%;right:0%;width:130px;
+                                        transform: translate(0%, -23%)"></td>
+                                </tr >
+                                <tr>
+                                    <td style="position:relative">
+                                        <img src="images/6.png" style="position: absolute;top:0%;left:0%;width:100px;transform: translate(0px, -40%);"></td>
+                                </tr>
+                               <tr>
+                               
+                            <td align="center">
+                                <img src="images/our-goals.png" style="width:90% ;margin-top: 5rem; margin-bottom: 3rem;">
+                            </td>   
+                            </tr>
+                            </table>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  bgcolor="#FF5C00" align="center" style="padding: 1rem 2rem">
+                           <p style="color: #fff;text-align:center;font-weight:400">If this sounds like something you'd be interested 
+                            in learning more about, check out our site.</p>
+                            <p style="color: #fff;text-align:center;font-weight:600"> <a href="https://silqen.com/" style="color: #fff;text-decoration:none">silqen.com</a>  / or reach us at <a style="color: #fff;text-decoration: none;" href="mailto:info@silqen.com"> info@silqen.com!</a></p>
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+            
+        </tr>
+     
+        <tr>
+
+        </tr>
+
+       
+    </table>
+</body>
+
+</html>
